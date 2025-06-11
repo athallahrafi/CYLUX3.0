@@ -5,7 +5,7 @@
 
 ## 🎯 Deskripsi Proyek
 
-**CYLUX 3.0** adalah sistem Chem E-Car yang menggabungkan sensor warna **TCS34725** dan Peristaltic Pump untuk mendeteksi warna dari reaksi Iodine Clock, mengendalikan LED indikator, serta menggerakkan aktuator berdasarkan input tombol dan berhenti berdasarkan reaksi kimia.
+**CYLUX 3.0** adalah sistem Chem E-Car yang menggunakan sensor warna **TCS34725** dan Peristaltic Pump sebagai pengatur laju reaksi Iodine Clock, mengendalikan LED indikator, serta menggerakkan aktuator berdasarkan input tombol dan berhenti berdasarkan reaksi kimia.
 
 Proyek ini dikembangkan untuk keperluan partisipasi kompetisi pada Chem-E Car Beijing 2025.
 
