@@ -31,8 +31,7 @@ Proyek ini dikembangkan untuk keperluan partisipasi kompetisi pada Chem-E Car Be
 | Motor Driver (L298N)   | 1      |
 | Tombol Push Button     | 1      |
 | LED RGB (3 kanal)      | 3      |
-| Power Supply +5V/+9V   | 1      |
-| Kabel Jumper & Breadboard | -    |
+| Power Supply +12V      | 1      |
 
 ---
 
@@ -41,5 +40,5 @@ Proyek ini dikembangkan untuk keperluan partisipasi kompetisi pada Chem-E Car Be
 1. Clone atau download repository ini:
 
    ```bash
-   git clone https://github.com/username/cylux3.0.git
+   git clone https://github.com/athallahrafi/cylux3.0.git
    cd cylux3.0
