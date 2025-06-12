@@ -41,4 +41,4 @@ Proyek ini dikembangkan untuk keperluan partisipasi kompetisi pada Chem-E Car Be
 
    ```bash
    git clone https://github.com/athallahrafi/cylux3.0.git
-   cd cylux3.0
+   cd CYLUX3.0
