@@ -1,0 +1,38 @@
+[detik ke-0] No TCS34725 found ... check your connections
+[detik ke-17] No TCS34725 found ... check your connections
+[detik ke-24] Found sensor
+[detik ke-25] Color Temp: 10916 K - Lux: 3 - R: 2 G: 5 B: 5 C: 13
+[detik ke-26] Color Temp: 4931 K - Lux: 115 - R: 226 G: 217 B: 210 C: 672
+[detik ke-28] Color Temp: 4587 K - Lux: 81 - R: 149 G: 140 B: 125 C: 428
+[detik ke-30] Color Temp: 4361 K - Lux: 64 - R: 118 G: 108 B: 92 C: 326
+[detik ke-31] Color Temp: 4847 K - Lux: 96 - R: 183 G: 176 B: 166 C: 541
+[detik ke-33] Color Temp: 4780 K - Lux: 87 - R: 163 G: 156 B: 145 C: 478
+[detik ke-35] Color Temp: 4730 K - Lux: 86 - R: 162 G: 154 B: 142 C: 472
+[detik ke-36] Color Temp: 4752 K - Lux: 83 - R: 153 G: 147 B: 135 C: 447
+[detik ke-38] Color Temp: 4762 K - Lux: 88 - R: 165 G: 158 B: 146 C: 483
+[detik ke-39] Color Temp: 4764 K - Lux: 92 - R: 166 G: 161 B: 147 C: 490
+[detik ke-41] Color Temp: 4756 K - Lux: 99 - R: 180 G: 174 B: 159 C: 529
+[detik ke-43] Color Temp: 4793 K - Lux: 104 - R: 187 G: 182 B: 167 C: 552
+[detik ke-44] Color Temp: 1391 K - Lux: 78 - R: 150 G: 152 B: 154 C: 148
+[detik ke-46] Color Temp: 1391 K - Lux: 78 - R: 150 G: 152 B: 154 C: 148
+[detik ke-48] Color Temp: 1391 K - Lux: 78 - R: 150 G: 152 B: 154 C: 148
+[detik ke-49] Color Temp: 1391 K - Lux: 78 - R: 150 G: 152 B: 154 C: 148
+[detik ke-51] Color Temp: 1391 K - Lux: 78 - R: 150 G: 152 B: 154 C: 148
+[detik ke-52] Color Temp: 4224 K - Lux: 56 - R: 78 G: 79 B: 58 C: 224
+[detik ke-54] Color Temp: 4164 K - Lux: 368 - R: 397 G: 449 B: 289 C: 1208
+[detik ke-56] Color Temp: 3726 K - Lux: 211 - R: 292 G: 277 B: 179 C: 789
+[detik ke-57] Color Temp: 3562 K - Lux: 129 - R: 193 G: 173 B: 110 C: 494
+[detik ke-59] Color Temp: 3654 K - Lux: 78 - R: 138 G: 116 B: 82 C: 349
+[detik ke-61] Color Temp: 4053 K - Lux: 60 - R: 83 G: 82 B: 58 C: 234
+[detik ke-62] Color Temp: 4187 K - Lux: 87 - R: 124 G: 123 B: 91 C: 353
+[detik ke-64] Color Temp: 4967 K - Lux: 93 - R: 114 G: 132 B: 107 C: 371
+[detik ke-66] Color Temp: 1391 K - Lux: 78 - R: 150 G: 152 B: 154 C: 148
+[detik ke-67] Color Temp: 1391 K - Lux: 78 - R: 150 G: 152 B: 154 C: 148
+[detik ke-69] Color Temp: 4448 K - Lux: 63 - R: 81 G: 87 B: 65 C: 246
+[detik ke-70] Color Temp: 2655 K - Lux: 57 - R: 238 G: 122 B: 79 C: 452
+[detik ke-72] Color Temp: 2296 K - Lux: 14 - R: 652 G: 215 B: 155 C: 1037
+[detik ke-74] Color Temp: 2461 K - Lux: 47 - R: 413 G: 169 B: 116 C: 713
+[detik ke-75] Color Temp: 2491 K - Lux: 53 - R: 398 G: 169 B: 115 C: 698
+[detik ke-77] Color Temp: 4052 K - Lux: 54 - R: 73 G: 73 B: 51 C: 206
+[detik ke-79] Color Temp: 6181 K - Lux: 206 - R: 206 G: 293 B: 259 C: 810
+[detik ke-80] Color Temp: 6378 K - Lux: 174 - R: 178 G: 255 B: 233 C: 718

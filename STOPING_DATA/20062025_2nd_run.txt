@@ -1,0 +1,19 @@
+[detik ke-0] Found sensor
+[detik ke-1] Color Temp: 11442 K - Lux: 304 - R: 282 G: 596 B: 744 C: 1782
+[detik ke-2] Color Temp: 10944 K - Lux: 293 - R: 268 G: 553 B: 672 C: 1620
+[detik ke-4] Color Temp: 10500 K - Lux: 290 - R: 266 G: 534 B: 636 C: 1545
+[detik ke-6] Color Temp: 10499 K - Lux: 280 - R: 256 G: 514 B: 612 C: 1488
+[detik ke-7] Color Temp: 11656 K - Lux: 205 - R: 193 G: 411 B: 520 C: 1207
+[detik ke-9] Color Temp: 16810 K - Lux: 63 - R: 85 G: 217 B: 344 C: 698
+[detik ke-10] Color Temp: 20512 K - Lux: 21 - R: 53 G: 148 B: 266 C: 507
+[detik ke-12] Color Temp: 25564 K - Lux: 65534 - R: 29 G: 90 B: 184 C: 329
+[detik ke-14] Color Temp: 29629 K - Lux: 65529 - R: 17 G: 57 B: 126 C: 217
+[detik ke-15] Color Temp: 31109 K - Lux: 65526 - R: 15 G: 51 B: 117 C: 199
+[detik ke-17] Color Temp: 31284 K - Lux: 65527 - R: 13 G: 44 B: 102 C: 173
+[detik ke-19] Color Temp: 31236 K - Lux: 65527 - R: 12 G: 40 B: 94 C: 160
+[detik ke-20] Color Temp: 33395 K - Lux: 65529 - R: 10 G: 36 B: 84 C: 142
+[detik ke-22] Color Temp: 30918 K - Lux: 65528 - R: 12 G: 40 B: 93 C: 159
+[detik ke-23] Color Temp: 32252 K - Lux: 65531 - R: 10 G: 36 B: 81 C: 140
+[detik ke-25] Color Temp: 31447 K - Lux: 65532 - R: 9 G: 32 B: 71 C: 123
+[detik ke-27] Color Temp: 28823 K - Lux: 65533 - R: 10 G: 33 B: 72 C: 125
+[detik ke-28] Color Temp: 28907 K - Lux: 0 - R: 9 G: 32 B: 65 C: 116
