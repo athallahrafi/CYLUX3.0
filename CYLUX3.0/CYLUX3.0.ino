@@ -18,8 +18,12 @@ bool lastState = LOW;
 bool triggerActive = false;
 unsigned long startTime = 0;
 const unsigned long runDuration = 120000;
+unsigned long lastRead = 0;
+const int interval = 1000; // 1 detik
 
-Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_614MS, TCS34725_GAIN_1X);
+//Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_614MS, TCS34725_GAIN_1X);
+Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS34725_GAIN_4X);
+
 
 void setup(void) {
   Serial.begin(9600);
