@@ -27,6 +27,7 @@ Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS3472
 
 void setup(void) {
   Serial.begin(9600);
+  delay(1000);
   pinMode(SW, INPUT);
   pinMode(LSR, OUTPUT);
   pinMode(LSY, OUTPUT);
@@ -90,9 +91,12 @@ void loop(void) {
   //   PSR();
   // }
   // stopSystem();
-  readColor();
+  if (millis() - lastRead >= interval) {
+    lastRead = millis();
+    readColor();
+  }
   //   triggerActive = false;
-  delay(1000);
+  //delay(1000);
 }
 
 void readColor() {
