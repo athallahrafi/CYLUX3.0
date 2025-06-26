@@ -1,0 +1,5 @@
+[detik ke-0] Found sensor
+[detik ke-1] Color Temp: 4163 K - Lux: 69 - R: 169 G: 136 B: 123 C: 617
+[detik ke-2] Color Temp: 5940 K - Lux: 91 - R: 103 G: 136 B: 123 C: 377
+[detik ke-3] Color Temp: 5940 K - Lux: 91 - R: 103 G: 136 B: 123 C: 377
+[detik ke-4] Color Temp: 5940 K - Lux: 91 - R: 103 G: 136 B: 123 C: 377

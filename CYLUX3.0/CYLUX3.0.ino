@@ -44,7 +44,7 @@ void setup(void) {
     Serial.println("Found sensor");
   } else {
     Serial.println("No TCS34725 found ... check your connections");
-    while (1);
+    // while (1);
   }
 
   digitalWrite(LSR, LOW);
@@ -82,13 +82,16 @@ void loop(void) {
   // }
 
   // lastState = currentState;
-  // if (millis() - startTime <= runDuration) {
-  //   PSR();
-  // }
   // stopSystem();
-  readColor();
+  // readColor();
+  // delay(5000);
+  PSR();
+  // if (millis() - startTime <= runDuration) {
+    // PSR();
+    // PSS();
+  // }
+  // delay(20000);
   //   triggerActive = false;
-  delay(1000);
 }
 
 void readColor() {
@@ -118,7 +121,7 @@ void MS() {
 void PSR() {
   digitalWrite(PSP, HIGH);
   digitalWrite(PSN, LOW);
-  analogWrite(ENP, 150);
+  analogWrite(ENP, 110);
 }
 
 void PSS() {
