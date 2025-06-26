@@ -18,11 +18,16 @@ bool lastState = LOW;
 bool triggerActive = false;
 unsigned long startTime = 0;
 const unsigned long runDuration = 120000;
+unsigned long lastRead = 0;
+const int interval = 1000; // 1 detik
 
-Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_614MS, TCS34725_GAIN_1X);
+//Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_614MS, TCS34725_GAIN_1X);
+Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS34725_GAIN_4X);
+
 
 void setup(void) {
   Serial.begin(9600);
+  delay(1000);
   pinMode(SW, INPUT);
   pinMode(LSR, OUTPUT);
   pinMode(LSY, OUTPUT);
@@ -83,6 +88,7 @@ void loop(void) {
 
   // lastState = currentState;
   // stopSystem();
+// <<<<<<< HEAD
   // readColor();
   // delay(5000);
   PSR();
@@ -92,6 +98,14 @@ void loop(void) {
   // }
   // delay(20000);
   //   triggerActive = false;
+// =======
+//   if (millis() - lastRead >= interval) {
+//     lastRead = millis();
+//     readColor();
+//   }
+  //   triggerActive = false;
+  //delay(1000);
+// >>>>>>> a84ef76ec554af3c3ce75407b9c27ca23c138a11
 }
 
 void readColor() {

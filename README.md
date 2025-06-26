@@ -1,6 +1,7 @@
 # CYLUX 3.0 - Arduino Color Detection & Motor Control System
 <p align="center">
-<img src="https://www.aiche.org/sites/default/files/images/page/embeded/chem-e-car_logo_2.png" width="200">
+   <img src="https://www.aiche.org/sites/default/files/images/page/embeded/chem-e-car_logo_2.png" width="200"><br>
+   <img src="https://github.com/athallahrafi/CYLUX3.0/blob/main/IMG-20250612-WA0037.jpg" width="200">
 </p>
 
 ## 🎯 Deskripsi Proyek
