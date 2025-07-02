@@ -14,6 +14,15 @@
 #define LEDC A2
 #define INTC A3
 
+int RED = -1:
+int GREEN = -1;
+int BLUE = -1;
+
+int RD10 = 0;
+int GD10 = 0;
+int BD10 = 0;
+
+bool isStopped = LOW;
 bool lastState = LOW;
 bool triggerActive = false;
 unsigned long startTime = 0;
