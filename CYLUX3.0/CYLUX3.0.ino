@@ -22,6 +22,14 @@ int RD10 = 0;
 int GD10 = 0;
 int BD10 = 0;
 
+int RDA = 0;
+int GDA = 0;
+int BDA = 0;
+
+bool PASS = (RDA == RED) || (GDA == GREEN) || (BDA == BLUE);
+bool OVR = (RDA == RED+2) || (GDA == GREEN+2) || (BDA == BLUE+2);
+bool MIN = (RDA == RED-2) || (GDA == GREEN-2) || (BDA == BLUE-2);
+
 bool isStopped = LOW;
 bool lastState = LOW;
 bool triggerActive = false;
@@ -134,7 +142,7 @@ void readColor() {
 void MR() {
   digitalWrite(MDP, HIGH);
   digitalWrite(MDN, LOW);
-  analogWrite(ENM, 150);
+  analogWrite(ENM, 250);
 }
 
 void MS() {
