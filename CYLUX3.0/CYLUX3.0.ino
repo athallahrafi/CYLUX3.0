@@ -183,7 +183,7 @@ void readColor() {
 void MR() {
   digitalWrite(MDP, HIGH);
   digitalWrite(MDN, LOW);
-  analogWrite(ENM, 100);
+  analogWrite(ENM, 200);
 }
 
 void MS() {
