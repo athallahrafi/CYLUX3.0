@@ -14,9 +14,9 @@
 #define LEDC A2
 #define INTC A3
 
-int RED = -1;
-int GREEN = -1;
-int BLUE = -1;
+int RED = -10;
+int GREEN = -10;
+int BLUE = -10;
 
 int RD5 = 23;  //9.5sec
 int GD5 = 52;  //9.5sec
@@ -37,13 +37,12 @@ int RD30 = 5;  //57.0sec
 int GD30 = 13; //57.0sec
 int BD30 = 14; //57.0sec
 
-int RDA = 0;
-int GDA = 0;
-int BDA = 0;
-
-bool PASS = (RDA == RED) || (GDA == GREEN) || (BDA == BLUE);
-bool OVR = (RDA == RED+2) || (GDA == GREEN+2) || (BDA == BLUE+2);
-bool MIN = (RDA == RED-2) || (GDA == GREEN-2) || (BDA == BLUE-2);
+// int RDA = 0;
+// int GDA = 0;
+// int BDA = 0;
+int RDA = RD10;
+int GDA = GD10;
+int BDA = BD10;
 
 bool isStopped = LOW;
 bool lastState = LOW;
@@ -86,6 +85,12 @@ void setup(void) {
 }
 
 void loop(void) {
+
+  bool PASS = (RDA == RED) || (GDA == GREEN) || (BDA == BLUE);
+  bool OVR = (RDA == RED+2) || (GDA == GREEN+2) || (BDA == BLUE+2);
+  bool MIN = (RDA == RED-2) || (GDA == GREEN-2) || (BDA == BLUE-2);
+  bool TOLERANCE = ((RDA-3 < RED < RDA+3) && (GDA-3 < GREEN < GDA+3) && (BDA-3 < BLUE < BDA+3));
+
   // bool currentState = digitalRead(SW);
   // // Serial.println(currentState);
   // // Serial.println("sistem standby");
@@ -144,10 +149,18 @@ void loop(void) {
     Serial.print("B: ");
     Serial.print(BLUE);
     Serial.println(" ");
-  }else if(MIN||PASS||OVR){
+  }else if(TOLERANCE){
+  // }else if(MIN||PASS||OVR){
+    Serial.print("R: ");
+    Serial.print(RED);
+    Serial.print("G: ");
+    Serial.print(GREEN);
+    Serial.print("B: ");
+    Serial.print(BLUE);
+    Serial.println(" ");
+    Serial.println("SYSTEM IS STOPPED");
     stopSystem();
     isStopped=HIGH;
-    Serial.println("STOP ALL SYSTEMS");
   }
 }
 
@@ -170,10 +183,12 @@ void readColor() {
 void MR() {
   digitalWrite(MDP, HIGH);
   digitalWrite(MDN, LOW);
-  analogWrite(ENM, 150);
+  analogWrite(ENM, 100);
 }
 
 void MS() {
+  digitalWrite(MDP, HIGH);
+  digitalWrite(MDN, HIGH);
   analogWrite(ENM, 0);
 }
 
