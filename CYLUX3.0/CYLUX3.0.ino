@@ -18,9 +18,21 @@ int RED = -1:
 int GREEN = -1;
 int BLUE = -1;
 
-int RD10 = 0;
-int GD10 = 0;
-int BD10 = 0;
+int RD10 = 11;
+int GD10 = 26;
+int BD10 = 35;
+int RD15 = 8;
+int GD15 = 20;
+int BD15 = 28;
+int RD20 = 0;
+int GD20 = 0;
+int BD20 = 0;
+int RD25 = 0;
+int GD25 = 0;
+int BD25 = 0;
+int RD30 = 6;
+int GD30 = 14;
+int BD30 = 11;
 
 int RDA = 0;
 int GDA = 0;
@@ -108,7 +120,7 @@ void loop(void) {
 // <<<<<<< HEAD
   // readColor();
   // delay(5000);
-  PSR();
+  // PSR();
   // if (millis() - startTime <= runDuration) {
     // PSR();
     // PSS();
@@ -123,6 +135,26 @@ void loop(void) {
   //   triggerActive = false;
   //delay(1000);
 // >>>>>>> a84ef76ec554af3c3ce75407b9c27ca23c138a11
+
+//============================================================
+  delay(1000);
+  readColor();
+  if(((rm!=RED)&&(gm!=GREEN)&&(bm!=BLUE))&&isStopped==LOW){
+    PSR();
+    MR();
+    Serial.println("START SYSTEMS");
+    Serial.print("R: ");
+    Serial.print(RED);
+    Serial.print("G: ");
+    Serial.print(GREEN);
+    Serial.print("B: ");
+    Serial.print(BLUE);
+    Serial.println(" ");
+  }else if(MIN||PASS||OVR))){
+    stopSystem();
+    isStopped=HIGH;
+    Serial.println("STOP ALL SYSTEMS");
+  }
 }
 
 void readColor() {
@@ -130,19 +162,21 @@ void readColor() {
   tcs.getRawData(&r, &g, &b, &c);
   colorTemp = tcs.calculateColorTemperature_dn40(r, g, b, c);
   lux = tcs.calculateLux(r, g, b);
-
-  Serial.print("Color Temp: "); Serial.print(colorTemp); Serial.print(" K - ");
-  Serial.print("Lux: "); Serial.print(lux); Serial.print(" - ");
-  Serial.print("R: "); Serial.print(r); Serial.print(" ");
-  Serial.print("G: "); Serial.print(g); Serial.print(" ");
-  Serial.print("B: "); Serial.print(b); Serial.print(" ");
-  Serial.print("C: "); Serial.println(c);
+  RED = r;
+  GREEN = g;
+  BLUE = b;
+  // Serial.print("Color Temp: "); Serial.print(colorTemp); Serial.print(" K - ");
+  // Serial.print("Lux: "); Serial.print(lux); Serial.print(" - ");
+  // Serial.print("R: "); Serial.print(r); Serial.print(" ");
+  // Serial.print("G: "); Serial.print(g); Serial.print(" ");
+  // Serial.print("B: "); Serial.print(b); Serial.print(" ");
+  // Serial.print("C: "); Serial.println(c);
 }
 
 void MR() {
   digitalWrite(MDP, HIGH);
   digitalWrite(MDN, LOW);
-  analogWrite(ENM, 250);
+  analogWrite(ENM, 150);
 }
 
 void MS() {
