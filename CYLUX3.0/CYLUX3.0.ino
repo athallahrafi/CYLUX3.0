@@ -14,32 +14,44 @@
 #define LEDC A2
 #define INTC A3
 
-int RED = -10;
-int GREEN = -10;
-int BLUE = -10;
+int RED = -1:
+int GREEN = -1;
+int BLUE = -1;
 
-// int rm = 0;
-// int gm = 0;
-// int bm = 0;
-int rm = 6;
-int gm = 14;
-int bm = 11;
-// int 30mR = 6;
-// int 30mG = 14;
-// int 30mB = 11;
-int mR15 = 8;
-int mG15 = 20;
-int mB15 = 28;
-int mR10 = 11;
-int mG10 = 26;
-int mB10 = 35;
+int RD5 = 23;  //9.5sec
+int GD5 = 52;  //9.5sec
+int BD5 = 61;  //9.5sec
+int RD10 = 20; //19.0sec
+int GD10 = 45; //19.0sec
+int BD10 = 59; //19.0sec
+int RD15 = 11;  //28.5sec
+int GD15 = 26; //28.5sec
+int BD15 = 36; //28.5sec
+int RD20 = 7;  //38.0sec
+int GD20 = 18;  //38.0sec
+int BD20 = 27;  //38.0sec
+int RD25 = 6;  //47.5sec
+int GD25 = 14;  //47.5sec
+int BD25 = 18;  //47.5sec
+int RD30 = 5;  //57.0sec
+int GD30 = 13; //57.0sec
+int BD30 = 14; //57.0sec
 
+int RDA = 0;
+int GDA = 0;
+int BDA = 0;
+
+bool PASS = (RDA == RED) || (GDA == GREEN) || (BDA == BLUE);
+bool OVR = (RDA == RED+2) || (GDA == GREEN+2) || (BDA == BLUE+2);
+bool MIN = (RDA == RED-2) || (GDA == GREEN-2) || (BDA == BLUE-2);
+
+bool isStopped = LOW;
 bool lastState = LOW;
 bool triggerActive = false;
 unsigned long startTime = 0;
 const unsigned long runDuration = 120000;
 unsigned long lastRead = 0;
-const int interval = 1000; // 1 detik
+const int interval = 1000;
 
 //Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_614MS, TCS34725_GAIN_1X);
 Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS34725_GAIN_4X);
@@ -60,11 +72,6 @@ void setup(void) {
   pinMode(ENP, OUTPUT);
   pinMode(LEDC, OUTPUT);
   pinMode(INTC, OUTPUT);
-
-  // if (!tcs.begin()) {
-  //   Serial.println("Sensor tidak ditemukan!");
-  //   while (1);
-  // }
   if (tcs.begin()) {
     Serial.println("Found sensor");
   } else {
@@ -108,27 +115,7 @@ void loop(void) {
 
   // lastState = currentState;
   // stopSystem();
-// <<<<<<< HEAD
-  delay(1000);
-  readColor();
-  if(((rm!=RED))&&((gm!=GREEN))&&((bm!=BLUE))){
-    PSR();
-    MR();
-    Serial.println("START SYSTEMS");
-    Serial.print("R: ");
-    Serial.print(RED);
-    Serial.print("G: ");
-    Serial.print(GREEN);
-    Serial.print("B: ");
-    Serial.print(BLUE);
-    Serial.println(" ");
-  }else if(((rm==RED)||(rm==RED+2)||(rm==RED-2))&&((gm==GREEN)||(gm==GREEN+2)||(gm==GREEN-2))&&((bm==BLUE)||(bm==BLUE+2)||(bm==BLUE-2))){
-    stopSystem();
-    Serial.println("STOP ALL SYSTEMS");
-  }
-  // }else if(RED!=rm&&GREEN!=gm&&BLUE!=bm){
-  // }
-  // if (millis() - startTime <= runDuration) {
+// <<<<<<< HEAD(millis() - startTime <= runDuration) {
     // PSR();
     // PSS();
   // }
@@ -142,6 +129,26 @@ void loop(void) {
   //   triggerActive = false;
   //delay(1000);
 // >>>>>>> a84ef76ec554af3c3ce75407b9c27ca23c138a11
+
+//============================================================
+  delay(1000);
+  readColor();
+  if(((rm!=RED)&&(gm!=GREEN)&&(bm!=BLUE))&&isStopped==LOW){
+    PSR();
+    MR();
+    Serial.println("START SYSTEMS");
+    Serial.print("R: ");
+    Serial.print(RED);
+    Serial.print("G: ");
+    Serial.print(GREEN);
+    Serial.print("B: ");
+    Serial.print(BLUE);
+    Serial.println(" ");
+  }else if(MIN||PASS||OVR){
+    stopSystem();
+    isStopped=HIGH;
+    Serial.println("STOP ALL SYSTEMS");
+  }
 }
 
 void readColor() {
@@ -163,7 +170,7 @@ void readColor() {
 void MR() {
   digitalWrite(MDP, HIGH);
   digitalWrite(MDN, LOW);
-  analogWrite(ENM, 250);
+  analogWrite(ENM, 150);
 }
 
 void MS() {
@@ -173,7 +180,7 @@ void MS() {
 void PSR() {
   digitalWrite(PSP, HIGH);
   digitalWrite(PSN, LOW);
-  analogWrite(ENP, 250);
+  analogWrite(ENP, 110);
 }
 
 void PSS() {
