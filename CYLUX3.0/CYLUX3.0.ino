@@ -14,7 +14,7 @@
 #define LEDC A2
 #define INTC A3
 
-int RED = -1:
+int RED = -1;
 int GREEN = -1;
 int BLUE = -1;
 
@@ -133,7 +133,7 @@ void loop(void) {
 //============================================================
   delay(1000);
   readColor();
-  if(((rm!=RED)&&(gm!=GREEN)&&(bm!=BLUE))&&isStopped==LOW){
+  if(((RDA!=RED)&&(GDA!=GREEN)&&(BDA!=BLUE))&&isStopped==LOW){
     PSR();
     MR();
     Serial.println("START SYSTEMS");
