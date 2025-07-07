@@ -40,9 +40,9 @@ int BD30 = 14; //57.0sec
 // int RDA = 0;
 // int GDA = 0;
 // int BDA = 0;
-int RDA = RD10;
-int GDA = GD10;
-int BDA = BD10;
+int RDA = RD30;
+int GDA = GD30;
+int BDA = BD30;
 
 bool isStopped = LOW;
 bool lastState = LOW;
@@ -71,12 +71,12 @@ void setup(void) {
   pinMode(ENP, OUTPUT);
   pinMode(LEDC, OUTPUT);
   pinMode(INTC, OUTPUT);
-  if (tcs.begin()) {
-    Serial.println("Found sensor");
-  } else {
-    Serial.println("No TCS34725 found ... check your connections");
-    // while (1);
-  }
+  // if (tcs.begin()) {
+  //   Serial.println("Found sensor");
+  // } else {
+  //   Serial.println("No TCS34725 found ... check your connections");
+  //   // while (1);
+  // }
 
   digitalWrite(LSR, LOW);
   digitalWrite(LSY, LOW);
@@ -86,10 +86,10 @@ void setup(void) {
 
 void loop(void) {
 
-  bool PASS = (RDA == RED) || (GDA == GREEN) || (BDA == BLUE);
-  bool OVR = (RDA == RED+2) || (GDA == GREEN+2) || (BDA == BLUE+2);
-  bool MIN = (RDA == RED-2) || (GDA == GREEN-2) || (BDA == BLUE-2);
-  bool TOLERANCE = ((RDA-3 < RED < RDA+3) && (GDA-3 < GREEN < GDA+3) && (BDA-3 < BLUE < BDA+3));
+  // bool PASS = (RDA == RED) || (GDA == GREEN) || (BDA == BLUE);
+  // bool OVR = (RDA == RED+2) || (GDA == GREEN+2) || (BDA == BLUE+2);
+  // bool MIN = (RDA == RED-2) || (GDA == GREEN-2) || (BDA == BLUE-2);
+  // bool TOLERANCE = ((RDA-3 < RED < RDA+3) && (GDA-3 < GREEN < GDA+3) && (BDA-3 < BLUE < BDA+3));
 
   // bool currentState = digitalRead(SW);
   // // Serial.println(currentState);
@@ -136,32 +136,32 @@ void loop(void) {
 // >>>>>>> a84ef76ec554af3c3ce75407b9c27ca23c138a11
 
 //============================================================
-  delay(1000);
-  readColor();
-  if(((RDA!=RED)&&(GDA!=GREEN)&&(BDA!=BLUE))&&isStopped==LOW){
-    PSR();
-    MR();
-    Serial.println("START SYSTEMS");
-    Serial.print("R: ");
-    Serial.print(RED);
-    Serial.print("G: ");
-    Serial.print(GREEN);
-    Serial.print("B: ");
-    Serial.print(BLUE);
-    Serial.println(" ");
-  }else if(TOLERANCE){
-  // }else if(MIN||PASS||OVR){
-    Serial.print("R: ");
-    Serial.print(RED);
-    Serial.print("G: ");
-    Serial.print(GREEN);
-    Serial.print("B: ");
-    Serial.print(BLUE);
-    Serial.println(" ");
-    Serial.println("SYSTEM IS STOPPED");
-    stopSystem();
-    isStopped=HIGH;
-  }
+  // delay(1000);
+  // readColor();
+  // if(((RDA!=RED)&&(GDA!=GREEN)&&(BDA!=BLUE))&&isStopped==LOW){
+  PSR();
+  //   MR();
+  //   Serial.println("START SYSTEMS");
+  //   Serial.print("R: ");
+  //   Serial.print(RED);
+  //   Serial.print("G: ");
+  //   Serial.print(GREEN);
+  //   Serial.print("B: ");
+  //   Serial.print(BLUE);
+  //   Serial.println(" ");
+  // }else if(TOLERANCE){
+  // // }else if(MIN||PASS||OVR){
+  //   Serial.print("R: ");
+  //   Serial.print(RED);
+  //   Serial.print("G: ");
+  //   Serial.print(GREEN);
+  //   Serial.print("B: ");
+  //   Serial.print(BLUE);
+  //   Serial.println(" ");
+  //   Serial.println("SYSTEM IS STOPPED");
+  //   stopSystem();
+  //   isStopped=HIGH;
+  // }
 }
 
 void readColor() {
@@ -172,18 +172,18 @@ void readColor() {
   RED = r;
   GREEN = g;
   BLUE = b;
-  // Serial.print("Color Temp: "); Serial.print(colorTemp); Serial.print(" K - ");
-  // Serial.print("Lux: "); Serial.print(lux); Serial.print(" - ");
-  // Serial.print("R: "); Serial.print(r); Serial.print(" ");
-  // Serial.print("G: "); Serial.print(g); Serial.print(" ");
-  // Serial.print("B: "); Serial.print(b); Serial.print(" ");
-  // Serial.print("C: "); Serial.println(c);
+  Serial.print("Color Temp: "); Serial.print(colorTemp); Serial.print(" K - ");
+  Serial.print("Lux: "); Serial.print(lux); Serial.print(" - ");
+  Serial.print("R: "); Serial.print(r); Serial.print(" ");
+  Serial.print("G: "); Serial.print(g); Serial.print(" ");
+  Serial.print("B: "); Serial.print(b); Serial.print(" ");
+  Serial.print("C: "); Serial.println(c);
 }
 
 void MR() {
   digitalWrite(MDP, HIGH);
   digitalWrite(MDN, LOW);
-  analogWrite(ENM, 200);
+  analogWrite(ENM, 255);
 }
 
 void MS() {
@@ -195,7 +195,7 @@ void MS() {
 void PSR() {
   digitalWrite(PSP, HIGH);
   digitalWrite(PSN, LOW);
-  analogWrite(ENP, 110);
+  analogWrite(ENP, 250);
 }
 
 void PSS() {
