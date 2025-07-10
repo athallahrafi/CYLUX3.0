@@ -27,9 +27,12 @@ int BD10 = 59; //19.0sec
 int RD15 = 11;  //28.5sec
 int GD15 = 26; //28.5sec
 int BD15 = 36; //28.5sec
-int RD20 = 7;  //38.0sec
-int GD20 = 18;  //38.0sec
-int BD20 = 27;  //38.0sec
+int RD20 = 0;  //38.0sec
+int GD20 = 1;  //38.0sec
+int BD20 = 1;  //38.0sec
+// int RD20 = 7;  //38.0sec
+// int GD20 = 18;  //38.0sec
+// int BD20 = 27;  //38.0sec
 int RD25 = 6;  //47.5sec
 int GD25 = 14;  //47.5sec
 int BD25 = 18;  //47.5sec
@@ -40,9 +43,9 @@ int BD30 = 14; //57.0sec
 // int RDA = 0;
 // int GDA = 0;
 // int BDA = 0;
-int RDA = RD30;
-int GDA = GD30;
-int BDA = BD30;
+int RDA = RD20;
+int GDA = GD20;
+int BDA = BD20;
 
 bool isStopped = LOW;
 bool lastState = LOW;
@@ -86,10 +89,10 @@ void setup(void) {
 
 void loop(void) {
 
-  // bool PASS = (RDA == RED) || (GDA == GREEN) || (BDA == BLUE);
-  // bool OVR = (RDA == RED+2) || (GDA == GREEN+2) || (BDA == BLUE+2);
-  // bool MIN = (RDA == RED-2) || (GDA == GREEN-2) || (BDA == BLUE-2);
-  // bool TOLERANCE = ((RDA-3 < RED < RDA+3) && (GDA-3 < GREEN < GDA+3) && (BDA-3 < BLUE < BDA+3));
+  bool PASS = (RDA == RED) || (GDA == GREEN) || (BDA == BLUE);
+  bool OVR = (RDA == RED+2) || (GDA == GREEN+2) || (BDA == BLUE+2);
+  bool MIN = (RDA == RED-2) || (GDA == GREEN-2) || (BDA == BLUE-2);
+  bool TOLERANCE = ((RDA-3 < RED < RDA+3) && (GDA-3 < GREEN < GDA+3) && (BDA-3 < BLUE < BDA+3));
 
   // bool currentState = digitalRead(SW);
   // // Serial.println(currentState);
@@ -136,32 +139,32 @@ void loop(void) {
 // >>>>>>> a84ef76ec554af3c3ce75407b9c27ca23c138a11
 
 //============================================================
-  // delay(1000);
-  // readColor();
-  // if(((RDA!=RED)&&(GDA!=GREEN)&&(BDA!=BLUE))&&isStopped==LOW){
-  PSR();
-  //   MR();
-  //   Serial.println("START SYSTEMS");
-  //   Serial.print("R: ");
-  //   Serial.print(RED);
-  //   Serial.print("G: ");
-  //   Serial.print(GREEN);
-  //   Serial.print("B: ");
-  //   Serial.print(BLUE);
-  //   Serial.println(" ");
-  // }else if(TOLERANCE){
-  // // }else if(MIN||PASS||OVR){
-  //   Serial.print("R: ");
-  //   Serial.print(RED);
-  //   Serial.print("G: ");
-  //   Serial.print(GREEN);
-  //   Serial.print("B: ");
-  //   Serial.print(BLUE);
-  //   Serial.println(" ");
-  //   Serial.println("SYSTEM IS STOPPED");
-  //   stopSystem();
-  //   isStopped=HIGH;
-  // }
+  delay(1000);
+  readColor();
+  if(((RDA!=RED)&&(GDA!=GREEN)&&(BDA!=BLUE))&&isStopped==LOW){
+    PSR();
+    MR();
+    Serial.println("START SYSTEMS");
+    Serial.print("R: ");
+    Serial.print(RED);
+    Serial.print("G: ");
+    Serial.print(GREEN);
+    Serial.print("B: ");
+    Serial.print(BLUE);
+    Serial.println(" ");
+  }else if(TOLERANCE){
+  // }else if(MIN||PASS||OVR){
+    Serial.print("R: ");
+    Serial.print(RED);
+    Serial.print("G: ");
+    Serial.print(GREEN);
+    Serial.print("B: ");
+    Serial.print(BLUE);
+    Serial.println(" ");
+    Serial.println("SYSTEM IS STOPPED");
+    stopSystem();
+    isStopped=HIGH;
+  }
 }
 
 void readColor() {
@@ -172,12 +175,12 @@ void readColor() {
   RED = r;
   GREEN = g;
   BLUE = b;
-  Serial.print("Color Temp: "); Serial.print(colorTemp); Serial.print(" K - ");
-  Serial.print("Lux: "); Serial.print(lux); Serial.print(" - ");
-  Serial.print("R: "); Serial.print(r); Serial.print(" ");
-  Serial.print("G: "); Serial.print(g); Serial.print(" ");
-  Serial.print("B: "); Serial.print(b); Serial.print(" ");
-  Serial.print("C: "); Serial.println(c);
+  // Serial.print("Color Temp: "); Serial.print(colorTemp); Serial.print(" K - ");
+  // Serial.print("Lux: "); Serial.print(lux); Serial.print(" - ");
+  // Serial.print("R: "); Serial.print(r); Serial.print(" ");
+  // Serial.print("G: "); Serial.print(g); Serial.print(" ");
+  // Serial.print("B: "); Serial.print(b); Serial.print(" ");
+  // Serial.print("C: "); Serial.println(c);
 }
 
 void MR() {
@@ -195,7 +198,7 @@ void MS() {
 void PSR() {
   digitalWrite(PSP, HIGH);
   digitalWrite(PSN, LOW);
-  analogWrite(ENP, 250);
+  analogWrite(ENP, 120);
 }
 
 void PSS() {
