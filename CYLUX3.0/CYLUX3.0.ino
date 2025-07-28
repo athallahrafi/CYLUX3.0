@@ -1,4 +1,6 @@
 #include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
 #include "Adafruit_TCS34725.h"
 
 #define MDN 7
@@ -13,6 +15,8 @@
 #define LSG 6
 #define LEDC A2
 #define INTC A3
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
 
 int RED = -10;
 int GREEN = -10;
@@ -57,11 +61,29 @@ const int interval = 1000;
 
 //Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_614MS, TCS34725_GAIN_1X);
 Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS34725_GAIN_4X);
-
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1
 
 void setup(void) {
   Serial.begin(9600);
-  delay(1000);
+  display.begin(SSD1306_SWITCHCAPVCC, 0x3C)
+  display.clearDisplay();
+  display.setTextSize(1);
+  display.setTextColor(SSD1306_WHITE);
+  display.setCursor(0, 0);
+  display.println(F("Halo, Dunia!"));
+  display.println("OLED 0.96 inch");
+  // Menampilkan karakter ASCII
+  display.write(0xA9); // ©
+  display.write(0xAE); // ®
+  display.write((char)176); // °
+  // Gambar garis bawah
+  display.drawLine(0, 30, 127, 30, SSD1306_WHITE);
+  display.display();
+  if (tcs.begin()) {
+    Serial.println("1");
+  } else {
+    Serial.println("0");
+  }
   pinMode(SW, INPUT);
   pinMode(LSR, OUTPUT);
   pinMode(LSY, OUTPUT);
@@ -74,12 +96,6 @@ void setup(void) {
   pinMode(ENP, OUTPUT);
   pinMode(LEDC, OUTPUT);
   pinMode(INTC, OUTPUT);
-  // if (tcs.begin()) {
-  //   Serial.println("Found sensor");
-  // } else {
-  //   Serial.println("No TCS34725 found ... check your connections");
-  //   // while (1);
-  // }
 
   digitalWrite(LSR, LOW);
   digitalWrite(LSY, LOW);
