@@ -1,11 +1,11 @@
 #include <Wire.h>
 #include "Adafruit_TCS34725.h"
 
-#define MDN 7
-#define MDP 8
+#define MDP 7
+#define MDN 8
 #define ENM 9
-#define PSN 12
-#define PSP 11
+#define PSN 11
+#define PSP 12
 #define ENP 10
 #define SW 2
 #define LSR 4
@@ -27,25 +27,18 @@ int BD10 = 59; //19.0sec
 int RD15 = 11;  //28.5sec
 int GD15 = 26; //28.5sec
 int BD15 = 36; //28.5sec
-int RD20 = 0;  //38.0sec
-int GD20 = 1;  //38.0sec
-int BD20 = 1;  //38.0sec
-// int RD20 = 7;  //38.0sec
-// int GD20 = 18;  //38.0sec
-// int BD20 = 27;  //38.0sec
+int RD20 = 7;  //38.0sec
+int GD20 = 18;  //38.0sec
+int BD20 = 27;  //38.0sec
 int RD25 = 6;  //47.5sec
 int GD25 = 14;  //47.5sec
 int BD25 = 18;  //47.5sec
 int RD30 = 5;  //57.0sec
 int GD30 = 13; //57.0sec
 int BD30 = 14; //57.0sec
-
-// int RDA = 0;
-// int GDA = 0;
-// int BDA = 0;
-int RDA = RD20;
-int GDA = GD20;
-int BDA = BD20;
+int RDA = RD25;
+int GDA = GD25;
+int BDA = BD25;
 
 bool isStopped = LOW;
 bool lastState = LOW;
@@ -53,11 +46,17 @@ bool triggerActive = false;
 unsigned long startTime = 0;
 const unsigned long runDuration = 120000;
 unsigned long lastRead = 0;
-const int interval = 1000;
+unsigned long interval = 1000;
 
 //Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_614MS, TCS34725_GAIN_1X);
 Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS34725_GAIN_4X);
 
+  // if (tcs.begin()) {
+  //   Serial.println("Found sensor");
+  // } else {
+  //   Serial.println("No TCS34725 found ... check your connections");
+  //   // while (1);
+  // }
 
 void setup(void) {
   Serial.begin(9600);
@@ -74,12 +73,6 @@ void setup(void) {
   pinMode(ENP, OUTPUT);
   pinMode(LEDC, OUTPUT);
   pinMode(INTC, OUTPUT);
-  // if (tcs.begin()) {
-  //   Serial.println("Found sensor");
-  // } else {
-  //   Serial.println("No TCS34725 found ... check your connections");
-  //   // while (1);
-  // }
 
   digitalWrite(LSR, LOW);
   digitalWrite(LSY, LOW);
@@ -95,30 +88,20 @@ void loop(void) {
   bool TOLERANCE = ((RDA-3 < RED < RDA+3) && (GDA-3 < GREEN < GDA+3) && (BDA-3 < BLUE < BDA+3));
 
   // bool currentState = digitalRead(SW);
-  // // Serial.println(currentState);
-  // // Serial.println("sistem standby");
+  // Serial.println(currentState);
+  // Serial.println("sistem standby");
   // if (currentState == HIGH && lastState == LOW && !triggerActive) {
   //   triggerActive = true;
-  //   // Serial.println("sistem start");
+  //   Serial.println("sistem start");
   //   delay(50);
   //   startTime = millis();
-
-  //   digitalWrite(LSR, HIGH);
-  //   digitalWrite(LSY, LOW);
-  //   digitalWrite(LSG, LOW);
-  //   delay(1000);
-
-  //   digitalWrite(LSR, LOW);
-  //   digitalWrite(LSY, HIGH);
-  //   digitalWrite(LSG, LOW);
-  //   delay(1000);
-
-  //   digitalWrite(LSR, LOW);
-  //   digitalWrite(LSY, LOW);
-  //   digitalWrite(LSG, HIGH);
-
-  //   PSR();
-  //   MR();
+  // delay(1000);
+  // PSR();
+  // MR();
+  // delay(12000);
+  // PSS();
+  // MS();
+  // delay(10000);
   // }
 
   // lastState = currentState;
@@ -135,33 +118,38 @@ void loop(void) {
 //     readColor();
 //   }
   //   triggerActive = false;
-  //delay(1000);
+  //delay(1000  );
 // >>>>>>> a84ef76ec554af3c3ce75407b9c27ca23c138a11
 
 //============================================================
-  delay(1000);
+  // delay(1000);
   readColor();
   if(((RDA!=RED)&&(GDA!=GREEN)&&(BDA!=BLUE))&&isStopped==LOW){
     PSR();
     MR();
-    Serial.println("START SYSTEMS");
-    Serial.print("R: ");
-    Serial.print(RED);
-    Serial.print("G: ");
-    Serial.print(GREEN);
-    Serial.print("B: ");
-    Serial.print(BLUE);
-    Serial.println(" ");
+    if(millis() - lastRead >= 1000){
+      lastRead = millis();
+      Serial.println("START SYSTEMS");
+      Serial.print("R: ");
+      Serial.print(RED);
+      Serial.print("G: ");
+      Serial.print(GREEN);
+      Serial.print("B: ");
+      Serial.print(BLUE);
+      Serial.println(" ");
+    }
   }else if(TOLERANCE){
-  // }else if(MIN||PASS||OVR){
-    Serial.print("R: ");
-    Serial.print(RED);
-    Serial.print("G: ");
-    Serial.print(GREEN);
-    Serial.print("B: ");
-    Serial.print(BLUE);
-    Serial.println(" ");
-    Serial.println("SYSTEM IS STOPPED");
+    if(millis() - lastRead >= 1000){
+      lastRead = millis();
+      Serial.print("R: ");
+      Serial.print(RED);
+      Serial.print("G: ");
+      Serial.print(GREEN);
+      Serial.print("B: ");
+      Serial.print(BLUE);
+      Serial.println(" ");
+      Serial.println("SYSTEM IS STOPPED");
+    }
     stopSystem();
     isStopped=HIGH;
   }
@@ -184,9 +172,9 @@ void readColor() {
 }
 
 void MR() {
-  digitalWrite(MDP, HIGH);
-  digitalWrite(MDN, LOW);
-  analogWrite(ENM, 255);
+  digitalWrite(MDP, LOW);
+  digitalWrite(MDN, HIGH);
+  analogWrite(ENM, 90);
 }
 
 void MS() {
@@ -198,17 +186,19 @@ void MS() {
 void PSR() {
   digitalWrite(PSP, HIGH);
   digitalWrite(PSN, LOW);
-  analogWrite(ENP, 120);
+  analogWrite(ENP, 110);
 }
 
 void PSS() {
+  digitalWrite(PSP, HIGH);
+  digitalWrite(PSN, HIGH);
   analogWrite(ENP, 0);
 }
 
 void stopSystem() {
+  MS();
+  PSS();
   digitalWrite(LSR, HIGH);
   digitalWrite(LSY, LOW);
   digitalWrite(LSG, LOW);
-  MS();
-  PSS();
 }
