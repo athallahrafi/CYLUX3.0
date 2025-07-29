@@ -44,48 +44,66 @@ int RDA = RD25;
 int GDA = GD25;
 int BDA = BD25;
 
-bool isStopped = LOW;
-bool lastState = LOW;
+bool isStopped = 0;
+bool lastState = 0;
 bool triggerActive = false;
 unsigned long startTime = 0;
 const unsigned long runDuration = 120000;
 unsigned long lastRead = 0;
+const unsigned long countdown = 10000;
+unsigned long time_run = 0;
 unsigned long interval = 1000;
+bool TCS_stats = 0;
+enum SYS_MODE = {STANDBY,START,STOP};
+uint8_t SYSTEM_STATS = STANDBY;
+
+
 
 //Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_614MS, TCS34725_GAIN_1X);
 Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS34725_GAIN_4X);
-<<<<<<< HEAD
-
-  // if (tcs.begin()) {
-  //   Serial.println("Found sensor");
-  // } else {
-  //   Serial.println("No TCS34725 found ... check your connections");
-  //   // while (1);
-  // }
-=======
-Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1
->>>>>>> 565bc71e636e0d8d8b4013eb4a46ef14bce39226
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
 void setup(void) {
   Serial.begin(9600);
-  display.begin(SSD1306_SWITCHCAPVCC, 0x3C)
+  display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
   display.clearDisplay();
+  display.setTextSize(2);
+  display.setTextColor(SSD1306_BLUE);
+  display.setCursor(10, 0);
+  display.println(F("CYLUX 3.0"));
+  display.drawLine(0, 24, 127, 24, SSD1306_BLUE);
+  display.setCursor(23, 16);
   display.setTextSize(1);
-  display.setTextColor(SSD1306_WHITE);
-  display.setCursor(0, 0);
-  display.println(F("Halo, Dunia!"));
-  display.println("OLED 0.96 inch");
-  // Menampilkan karakter ASCII
-  display.write(0xA9); // ©
-  display.write(0xAE); // ®
-  display.write((char)176); // °
-  // Gambar garis bawah
-  display.drawLine(0, 30, 127, 30, SSD1306_WHITE);
+  display.println("SYSTEM STANDBY");
+  display.setCursor(62, 27);
+  display.setTextSize(2);
+  display.println(countdown);
+  display.setCursor(0, 45);
+  display.setTextSize(1);
+  display.println("TCS:");
+  display.setCursor(22, 45);
+  display.print(TCS_stats);
+  display.setCursor(35, 45);
+  display.print("R:");
+  display.setCursor(45, 45);
+  display.print(RED);
+  display.setCursor(68, 45);
+  display.print("G:");
+  display.setCursor(78, 45);
+  display.print(GREEN);
+  display.setCursor(100, 45);
+  display.print("B:");
+  display.setCursor(110, 45);
+  display.print(BLUE);
+  display.setCursor(40, 56);
+  display.print("TIME:");
+  display.setCursor(75, 56);
+  display.print(time_run);
   display.display();
   if (tcs.begin()) {
-    Serial.println("1");
+    TCS_stats=1;
   } else {
-    Serial.println("0");
+    TCS_stats=0;
   }
   pinMode(SW, INPUT);
   pinMode(LSR, OUTPUT);
@@ -113,6 +131,10 @@ void loop(void) {
   bool MIN = (RDA == RED-2) || (GDA == GREEN-2) || (BDA == BLUE-2);
   bool TOLERANCE = ((RDA-3 < RED < RDA+3) && (GDA-3 < GREEN < GDA+3) && (BDA-3 < BLUE < BDA+3));
 
+  if (millis() - lastUpdate >= 500) {
+    lastUpdate = millis();
+    
+  }
   // bool currentState = digitalRead(SW);
   // Serial.println(currentState);
   // Serial.println("sistem standby");
@@ -214,7 +236,22 @@ void PSR() {
   digitalWrite(PSN, LOW);
   analogWrite(ENP, 110);
 }
-
+void update_rgb_val(){
+  display.setTextSize(1);
+  display.fillRect(45, 45, 20, 8, BLACK);
+  display.fillRect(78, 45, 20, 8, BLACK);
+  display.fillRect(110, 45, 20, 8, BLACK);
+  display.setCursor(45, 45); display.print(RED);
+  display.setCursor(78, 45); display.print(GREEN);
+  display.setCursor(110, 45); display.print(BLUE);
+  display.display();
+}
+void update_countdown(){
+  display.setTextSize(2);
+  display.fillRect(62, 27, 20, 8, BLACK);
+  display.setCursor(62, 27); display.print(RED);
+  display.display();
+}
 void PSS() {
   digitalWrite(PSP, HIGH);
   digitalWrite(PSN, HIGH);
