@@ -54,7 +54,6 @@ unsigned long interval = 1000;
 
 //Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_614MS, TCS34725_GAIN_1X);
 Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS34725_GAIN_4X);
-<<<<<<< HEAD
 
   // if (tcs.begin()) {
   //   Serial.println("Found sensor");
@@ -62,9 +61,7 @@ Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS3472
   //   Serial.println("No TCS34725 found ... check your connections");
   //   // while (1);
   // }
-=======
-Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1
->>>>>>> 565bc71e636e0d8d8b4013eb4a46ef14bce39226
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
 void setup(void) {
   Serial.begin(9600);
@@ -148,37 +145,37 @@ void loop(void) {
 // >>>>>>> a84ef76ec554af3c3ce75407b9c27ca23c138a11
 
 //============================================================
-  // delay(1000);
+  delay(1000);
   readColor();
-  if(((RDA!=RED)&&(GDA!=GREEN)&&(BDA!=BLUE))&&isStopped==LOW){
-    PSR();
-    MR();
-    if(millis() - lastRead >= 1000){
-      lastRead = millis();
-      Serial.println("START SYSTEMS");
-      Serial.print("R: ");
-      Serial.print(RED);
-      Serial.print("G: ");
-      Serial.print(GREEN);
-      Serial.print("B: ");
-      Serial.print(BLUE);
-      Serial.println(" ");
-    }
-  }else if(TOLERANCE){
-    if(millis() - lastRead >= 1000){
-      lastRead = millis();
-      Serial.print("R: ");
-      Serial.print(RED);
-      Serial.print("G: ");
-      Serial.print(GREEN);
-      Serial.print("B: ");
-      Serial.print(BLUE);
-      Serial.println(" ");
-      Serial.println("SYSTEM IS STOPPED");
-    }
-    stopSystem();
-    isStopped=HIGH;
-  }
+  // if(((RDA!=RED)&&(GDA!=GREEN)&&(BDA!=BLUE))&&isStopped==LOW){
+    // PSR();
+  //   MR();
+  //   if(millis() - lastRead >= 1000){
+  //     lastRead = millis();
+  //     Serial.println("START SYSTEMS");
+  //     Serial.print("R: ");
+  //     Serial.print(RED);
+  //     Serial.print("G: ");
+  //     Serial.print(GREEN);
+  //     Serial.print("B: ");
+  //     Serial.print(BLUE);
+  //     Serial.println(" ");
+  //   }
+  // }else if(TOLERANCE){
+  //   if(millis() - lastRead >= 1000){
+  //     lastRead = millis();
+  //     Serial.print("R: ");
+  //     Serial.print(RED);
+  //     Serial.print("G: ");
+  //     Serial.print(GREEN);
+  //     Serial.print("B: ");
+  //     Serial.print(BLUE);
+  //     Serial.println(" ");
+  //     Serial.println("SYSTEM IS STOPPED");
+  //   }
+  //   stopSystem();
+  //   isStopped=HIGH;
+  // }
 }
 
 void readColor() {
@@ -189,12 +186,12 @@ void readColor() {
   RED = r;
   GREEN = g;
   BLUE = b;
-  // Serial.print("Color Temp: "); Serial.print(colorTemp); Serial.print(" K - ");
-  // Serial.print("Lux: "); Serial.print(lux); Serial.print(" - ");
-  // Serial.print("R: "); Serial.print(r); Serial.print(" ");
-  // Serial.print("G: "); Serial.print(g); Serial.print(" ");
-  // Serial.print("B: "); Serial.print(b); Serial.print(" ");
-  // Serial.print("C: "); Serial.println(c);
+  Serial.print("Color Temp: "); Serial.print(colorTemp); Serial.print(" K - ");
+  Serial.print("Lux: "); Serial.print(lux); Serial.print(" - ");
+  Serial.print("R: "); Serial.print(r); Serial.print(" ");
+  Serial.print("G: "); Serial.print(g); Serial.print(" ");
+  Serial.print("B: "); Serial.print(b); Serial.print(" ");
+  Serial.print("C: "); Serial.println(c);
 }
 
 void MR() {
