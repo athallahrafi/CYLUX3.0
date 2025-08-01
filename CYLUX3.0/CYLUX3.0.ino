@@ -178,36 +178,36 @@ void loop(void) {
 
 //============================================================
   // delay(1000);
-  readColor();
-  if(((RDA!=RED)&&(GDA!=GREEN)&&(BDA!=WHITE))&&isStopped==LOW){
+  // readColor();
+  // if(((RDA!=RED)&&(GDA!=GREEN)&&(BDA!=WHITE))&&isStopped==LOW){
     PSR();
-    MR();
-    if(millis() - lastRead >= 1000){
-      lastRead = millis();
-      Serial.println("START SYSTEMS");
-      Serial.print("R: ");
-      Serial.print(RED);
-      Serial.print("G: ");
-      Serial.print(GREEN);
-      Serial.print("B: ");
-      Serial.print(WHITE);
-      Serial.println(" ");
-    }
-  }else if(TOLERANCE){
-    if(millis() - lastRead >= 1000){
-      lastRead = millis();
-      Serial.print("R: ");
-      Serial.print(RED);
-      Serial.print("G: ");
-      Serial.print(GREEN);
-      Serial.print("B: ");
-      Serial.print(WHITE);
-      Serial.println(" ");
-      Serial.println("SYSTEM IS STOPPED");
-    }
-    stopSystem();
-    isStopped=HIGH;
-  }
+  //   MR();
+  //   if(millis() - lastRead >= 1000){
+  //     lastRead = millis();
+  //     Serial.println("START SYSTEMS");
+  //     Serial.print("R: ");
+  //     Serial.print(RED);
+  //     Serial.print("G: ");
+  //     Serial.print(GREEN);
+  //     Serial.print("B: ");
+  //     Serial.print(WHITE);
+  //     Serial.println(" ");
+  //   }
+  // }else if(TOLERANCE){
+  //   if(millis() - lastRead >= 1000){
+  //     lastRead = millis();
+  //     Serial.print("R: ");
+  //     Serial.print(RED);
+  //     Serial.print("G: ");
+  //     Serial.print(GREEN);
+  //     Serial.print("B: ");
+  //     Serial.print(WHITE);
+  //     Serial.println(" ");
+  //     Serial.println("SYSTEM IS STOPPED");
+  //   }
+  //   stopSystem();
+  //   isStopped=HIGH;
+  // }
 }
 
 void readColor() {
@@ -218,12 +218,12 @@ void readColor() {
   RED = r;
   GREEN = g;
   BLUE = b;
-  // Serial.print("Color Temp: "); Serial.print(colorTemp); Serial.print(" K - ");
-  // Serial.print("Lux: "); Serial.print(lux); Serial.print(" - ");
-  // Serial.print("R: "); Serial.print(r); Serial.print(" ");
-  // Serial.print("G: "); Serial.print(g); Serial.print(" ");
-  // Serial.print("B: "); Serial.print(b); Serial.print(" ");
-  // Serial.print("C: "); Serial.println(c);
+  Serial.print("Color Temp: "); Serial.print(colorTemp); Serial.print(" K - ");
+  Serial.print("Lux: "); Serial.print(lux); Serial.print(" - ");
+  Serial.print("R: "); Serial.print(r); Serial.print(" ");
+  Serial.print("G: "); Serial.print(g); Serial.print(" ");
+  Serial.print("B: "); Serial.print(b); Serial.print(" ");
+  Serial.print("C: "); Serial.println(c);
 }
 
 void MR() {

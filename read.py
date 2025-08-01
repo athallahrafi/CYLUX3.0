@@ -2,7 +2,7 @@ import serial
 import time
 PORT = "COM7"
 BAUDRATE = 9600
-OUTPUT_FILE = "./STOPING_DATA/17072025_1st_run.txt"
+OUTPUT_FILE = "./STOPING_DATA/31072025_10th_run.txt"
 def main():
     try:
         ser = serial.Serial(PORT, BAUDRATE, timeout=1)
