@@ -1,7 +1,7 @@
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
-#include "Adafruit_TCS34725.h"
+#include <Adafruit_TCS34725.h>
 
 #define MDP 7
 #define MDN 8
@@ -22,27 +22,36 @@ int RED = -10;
 int GREEN = -10;
 int BLUE = -10;
 
-int RD5 = 23;  //9.5sec
-int GD5 = 52;  //9.5sec
-int BD5 = 61;  //9.5sec
-int RD10 = 20; //19.0sec
-int GD10 = 45; //19.0sec
-int BD10 = 59; //19.0sec
-int RD15 = 11;  //28.5sec
-int GD15 = 26; //28.5sec
-int BD15 = 36; //28.5sec
-int RD20 = 7;  //38.0sec
-int GD20 = 18;  //38.0sec
-int BD20 = 27;  //38.0sec
-int RD25 = 6;  //47.5sec
-int GD25 = 14;  //47.5sec
-int BD25 = 18;  //47.5sec
-int RD30 = 5;  //57.0sec
-int GD30 = 13; //57.0sec
-int BD30 = 14; //57.0sec
-int RDA = RD25;
-int GDA = GD25;
-int BDA = BD25;
+int RD15 = 25; //34.50sec
+int GD15 = 51; //34.50sec
+int BD15 = 58; //34.50sec
+int RD18 = 24; //41.40sec
+int GD18 = 48; //41.40sec
+int BD18 = 52; //41.40sec
+int RD20 = 24; //46.00sec
+int GD20 = 47; //46.00sec
+int BD20 = 48; //46.00sec
+int RD22 = 22; //50.60sec
+int GD22 = 43; //50.60sec
+int BD22 = 42; //50.60sec
+int RD24 = 20; //55.20sec
+int GD24 = 20; //55.20sec
+int BD24 = 40; //55.20sec
+int RD25 = 36; //57.50sec
+int GD25 = 20; //57.50sec
+int BD25 = 39; //57.50sec
+int RD26 = 20; //59.80sec
+int GD26 = 39; //59.80sec
+int BD26 = 33; //59.80sec
+int RD28 = 19; //64.40sec
+int GD28 = 37; //64.40sec
+int BD28 = 31; //64.40sec
+int RD30 = 19; //69.00sec
+int GD30 = 37; //69.00sec
+int BD30 = 29; //69.00sec
+int RDA = RD30;
+int GDA = GD30;
+int BDA = BD30;
 
 bool isStopped = 0;
 bool lastState = 0;
@@ -50,7 +59,7 @@ bool triggerActive = false;
 unsigned long startTime = 0;
 const unsigned long runDuration = 120000;
 unsigned long lastRead = 0;
-const unsigned long countdown = 10000;
+const unsigned long countdown = 0;
 unsigned long time_run = 0;
 unsigned long interval = 1000;
 bool TCS_stats = 0;
@@ -133,10 +142,11 @@ void setup(void) {
 
 void loop(void) {
 
-  bool PASS = (RDA == RED) || (GDA == GREEN) || (BDA == WHITE);
+  bool PASS = (RDA == RED) || (GDA == GREEN) || (BDA == BLUE);
+  bool STOP = (RED==RDA) && (GREEN==GDA) && (BLUE == BDA);
   bool OVR = (RDA == RED+2) || (GDA == GREEN+2) || (BDA == BLUE+2);
   bool MIN = (RDA == RED-2) || (GDA == GREEN-2) || (BDA == BLUE-2);
-  bool TOLERANCE = ((RDA-3 < RED < RDA+3) && (GDA-3 < GREEN < GDA+3) && (BDA-3 < BLUE < BDA+3));
+  bool TOLERANCE = ((RDA-1 < RED < RDA+1) && (GDA-1 < GREEN < GDA+1) && (BDA-1 < BLUE < BDA+1));
 
   // if (millis() - lastUpdate >= 500) {
   //   lastUpdate = millis();
@@ -178,36 +188,36 @@ void loop(void) {
 
 //============================================================
   // delay(1000);
-  // readColor();
-  // if(((RDA!=RED)&&(GDA!=GREEN)&&(BDA!=WHITE))&&isStopped==LOW){
+  readColor();
+  if(((RDA!=RED)&&(GDA!=GREEN)&&(BDA!=WHITE))&&isStopped==LOW){
     PSR();
-  //   MR();
-  //   if(millis() - lastRead >= 1000){
-  //     lastRead = millis();
-  //     Serial.println("START SYSTEMS");
-  //     Serial.print("R: ");
-  //     Serial.print(RED);
-  //     Serial.print("G: ");
-  //     Serial.print(GREEN);
-  //     Serial.print("B: ");
-  //     Serial.print(WHITE);
-  //     Serial.println(" ");
-  //   }
-  // }else if(TOLERANCE){
-  //   if(millis() - lastRead >= 1000){
-  //     lastRead = millis();
-  //     Serial.print("R: ");
-  //     Serial.print(RED);
-  //     Serial.print("G: ");
-  //     Serial.print(GREEN);
-  //     Serial.print("B: ");
-  //     Serial.print(WHITE);
-  //     Serial.println(" ");
-  //     Serial.println("SYSTEM IS STOPPED");
-  //   }
-  //   stopSystem();
-  //   isStopped=HIGH;
-  // }
+    MR();
+    if(millis() - lastRead >= 1000){
+      lastRead = millis();
+      Serial.println("START SYSTEMS");
+      Serial.print("R: ");
+      Serial.print(RED);
+      Serial.print("G: ");
+      Serial.print(GREEN);
+      Serial.print("B: ");
+      Serial.print(WHITE);
+      Serial.println(" ");
+    }
+  }else if(TOLERANCE){
+    if(millis() - lastRead >= 1000){
+      lastRead = millis();
+      Serial.print("R: ");
+      Serial.print(RED);
+      Serial.print("G: ");
+      Serial.print(GREEN);
+      Serial.print("B: ");
+      Serial.print(WHITE);
+      Serial.println(" ");
+      Serial.println("SYSTEM IS STOPPED");
+    }
+    stopSystem();
+    isStopped=HIGH;
+  }
 }
 
 void readColor() {
@@ -218,12 +228,12 @@ void readColor() {
   RED = r;
   GREEN = g;
   BLUE = b;
-  Serial.print("Color Temp: "); Serial.print(colorTemp); Serial.print(" K - ");
-  Serial.print("Lux: "); Serial.print(lux); Serial.print(" - ");
-  Serial.print("R: "); Serial.print(r); Serial.print(" ");
-  Serial.print("G: "); Serial.print(g); Serial.print(" ");
-  Serial.print("B: "); Serial.print(b); Serial.print(" ");
-  Serial.print("C: "); Serial.println(c);
+  // Serial.print("Color Temp: "); Serial.print(colorTemp); Serial.print(" K - ");
+  // Serial.print("Lux: "); Serial.print(lux); Serial.print(" - ");
+  // Serial.print("R: "); Serial.print(r); Serial.print(" ");
+  // Serial.print("G: "); Serial.print(g); Serial.print(" ");
+  // Serial.print("B: "); Serial.print(b); Serial.print(" ");
+  // Serial.print("C: "); Serial.println(c);
 }
 
 void MR() {
@@ -256,7 +266,7 @@ void update_rgb_val(){
 void update_countdown(){
   display.setTextSize(2);
   display.fillRect(62, 27, 20, 8, BLACK);
-  display.setCursor(62, 27); display.print(RED);
+  display.setCursor(62, 27); display.print(countdown);
   display.display();
 }
 void PSS() {
