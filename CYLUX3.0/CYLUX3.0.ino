@@ -3,12 +3,12 @@
 #include <Adafruit_SSD1306.h>
 #include <Adafruit_TCS34725.h>
 
-#define MDP 7
-#define MDN 8
-#define ENM 9
-#define PSN 11
-#define PSP 12
-#define ENP 10
+#define PSP 7
+#define PSN 8
+#define ENP 9
+#define MDP 11
+#define MDN 12
+#define ENM 10
 #define SW 2
 #define LSR 4
 #define LSY 5
@@ -70,13 +70,6 @@ bool TCS_stats = 0;
 
 //Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_614MS, TCS34725_GAIN_1X);
 Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS34725_GAIN_4X);
-
-  // if (tcs.begin()) {
-  //   Serial.println("Found sensor");
-  // } else {
-  //   Serial.println("No TCS34725 found ... check your connections");
-  //   // while (1);
-  // }
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
 void setup(void) {
@@ -115,13 +108,13 @@ void setup(void) {
   display.setCursor(100, 45);
   display.print("B:");
   display.setCursor(110, 45);
-  display.print(WHITE);
+  display.print(BLUE);
   display.setCursor(40, 56);
   display.print("TIME:");
   display.setCursor(75, 56);
   display.print(time_run);
   display.display();
-  pinMode(SW, INPUT);
+  pinMode(SW, INPUT_PULLUP);
   pinMode(LSR, OUTPUT);
   pinMode(LSY, OUTPUT);
   pinMode(LSG, OUTPUT);
@@ -134,9 +127,9 @@ void setup(void) {
   pinMode(LEDC, OUTPUT);
   pinMode(INTC, OUTPUT);
 
-  digitalWrite(LSR, LOW);
-  digitalWrite(LSY, LOW);
-  digitalWrite(LSG, LOW);
+  digitalWrite(LSR, HIGH);
+  digitalWrite(LSY, HIGH);
+  digitalWrite(LSG, HIGH);
   digitalWrite(LEDC, LOW);
 }
 
@@ -145,8 +138,8 @@ void loop(void) {
   bool PASS = (RDA == RED) || (GDA == GREEN) || (BDA == BLUE);
   bool STOP = (RED==RDA) && (GREEN==GDA) && (BLUE == BDA);
   bool OVR = (RDA == RED+2) || (GDA == GREEN+2) || (BDA == BLUE+2);
-  bool MIN = (RDA == RED-2) || (GDA == GREEN-2) || (BDA == BLUE-2);
-  bool TOLERANCE = ((RDA-1 < RED < RDA+1) && (GDA-1 < GREEN < GDA+1) && (BDA-1 < BLUE < BDA+1));
+  bool MIN = (RED <= RDA) || (GREEN <= GDA) || (BLUE <= BDA);
+  bool TOLERANCE = ((RDA-3 < RED < RDA+3) && (GDA-3 < GREEN < GDA+3) && (BDA-3 < BLUE < BDA+3));
 
   // if (millis() - lastUpdate >= 500) {
   //   lastUpdate = millis();
@@ -154,6 +147,7 @@ void loop(void) {
   // }
   // bool currentState = digitalRead(SW);
   // Serial.println(currentState);
+  // delay(500);
   // Serial.println("sistem standby");
   // if (currentState == HIGH && lastState == LOW && !triggerActive) {
   //   triggerActive = true;
@@ -189,6 +183,7 @@ void loop(void) {
 //============================================================
   // delay(1000);
   readColor();
+  update_rgb_val();
   if(((RDA!=RED)&&(GDA!=GREEN)&&(BDA!=WHITE))&&isStopped==LOW){
     PSR();
     MR();
@@ -200,10 +195,10 @@ void loop(void) {
       Serial.print("G: ");
       Serial.print(GREEN);
       Serial.print("B: ");
-      Serial.print(WHITE);
+      Serial.print(BLUE);
       Serial.println(" ");
     }
-  }else if(TOLERANCE){
+  }else if(TOLERANCE||MIN){
     if(millis() - lastRead >= 1000){
       lastRead = millis();
       Serial.print("R: ");
@@ -211,7 +206,7 @@ void loop(void) {
       Serial.print("G: ");
       Serial.print(GREEN);
       Serial.print("B: ");
-      Serial.print(WHITE);
+      Serial.print(BLUE);
       Serial.println(" ");
       Serial.println("SYSTEM IS STOPPED");
     }
@@ -251,7 +246,7 @@ void MS() {
 void PSR() {
   digitalWrite(PSP, HIGH);
   digitalWrite(PSN, LOW);
-  analogWrite(ENP, 110);
+  analogWrite(ENP, 120);
 }
 void update_rgb_val(){
   display.setTextSize(1);
@@ -260,7 +255,7 @@ void update_rgb_val(){
   display.fillRect(110, 45, 20, 8, BLACK);
   display.setCursor(45, 45); display.print(RED);
   display.setCursor(78, 45); display.print(GREEN);
-  display.setCursor(110, 45); display.print(WHITE);
+  display.setCursor(110, 45); display.print(BLUE);
   display.display();
 }
 void update_countdown(){
