@@ -21,6 +21,7 @@
 int RED = -10;
 int GREEN = -10;
 int BLUE = -10;
+int CLEAR = -10;
 
 int RD15 = 25; //34.50sec
 int GD15 = 51; //34.50sec
@@ -49,9 +50,14 @@ int BD28 = 31; //64.40sec
 int RD30 = 19; //69.00sec
 int GD30 = 37; //69.00sec
 int BD30 = 29; //69.00sec
-int RDA = RD30;
-int GDA = GD30;
-int BDA = BD30;
+int RDN = 20; //69.00sec
+int GDN = 20; //69.00sec
+int BDN = 20; //69.00sec
+int CDN = 20; //69.00sec
+int RDA = RDN;
+int GDA = GDN;
+int BDA = BDN;
+int CDA = CDN;
 
 bool isStopped = 0;
 bool lastState = 0;
@@ -138,8 +144,6 @@ void loop(void) {
   bool PASS = (RDA == RED) || (GDA == GREEN) || (BDA == BLUE);
   bool STOP = (RED==RDA) && (GREEN==GDA) && (BLUE == BDA);
   bool OVR = (RDA == RED+2) || (GDA == GREEN+2) || (BDA == BLUE+2);
-  bool MIN = (RED <= RDA) || (GREEN <= GDA) || (BLUE <= BDA);
-  bool TOLERANCE = ((RDA-3 < RED < RDA+3) && (GDA-3 < GREEN < GDA+3) && (BDA-3 < BLUE < BDA+3));
 
   // if (millis() - lastUpdate >= 500) {
   //   lastUpdate = millis();
@@ -182,9 +186,19 @@ void loop(void) {
 
 //============================================================
   // delay(1000);
+  // bool TOLERANCE = ((RDA-3 < RED < RDA+3) && (GDA-3 < GREEN < GDA+3) && (BDA-3 < BLUE < BDA+3));
   readColor();
   update_rgb_val();
-  if(((RDA!=RED)&&(GDA!=GREEN)&&(BDA!=WHITE))&&isStopped==LOW){
+  bool MIN = ((RED < RDA) && (GREEN < GDA) && (BLUE < BDA) && (CLEAR < CDA));
+  bool TOLERANCE = ((RED > RDA - 1) && (RED < RDA + 1) &&
+                  (GREEN > GDA - 1) && (GREEN < GDA + 1) &&
+                  (BLUE > BDA - 1) && (BLUE < BDA + 1) &&
+                  (CLEAR < CDA ));
+  // bool TOLERANCE = ((RED > RDA - 3) && (RED < RDA + 3) &&
+  //                 (GREEN > GDA - 3) && (GREEN < GDA + 3) &&
+  //                 (BLUE > BDA - 3) && (BLUE < BDA + 3) &&
+  //                 (CLEAR < CDA ));
+  if(!TOLERANCE && isStopped==LOW){
     PSR();
     MR();
     if(millis() - lastRead >= 1000){
@@ -223,6 +237,7 @@ void readColor() {
   RED = r;
   GREEN = g;
   BLUE = b;
+  CLEAR = c;
   // Serial.print("Color Temp: "); Serial.print(colorTemp); Serial.print(" K - ");
   // Serial.print("Lux: "); Serial.print(lux); Serial.print(" - ");
   // Serial.print("R: "); Serial.print(r); Serial.print(" ");
