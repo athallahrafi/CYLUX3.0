@@ -23,67 +23,36 @@ int GREEN = -10;
 int BLUE = -10;
 int CLEAR = -10;
 
-int RD15 = 25; //34.50sec
-int GD15 = 51; //34.50sec
-int BD15 = 58; //34.50sec
-int RD18 = 24; //41.40sec
-int GD18 = 48; //41.40sec
-int BD18 = 52; //41.40sec
-int RD20 = 24; //46.00sec
-int GD20 = 47; //46.00sec
-int BD20 = 48; //46.00sec
-int RD22 = 22; //50.60sec
-int GD22 = 43; //50.60sec
-int BD22 = 42; //50.60sec
-int RD24 = 20; //55.20sec
-int GD24 = 20; //55.20sec
-int BD24 = 40; //55.20sec
-int RD25 = 36; //57.50sec
-int GD25 = 20; //57.50sec
-int BD25 = 39; //57.50sec
-int RD26 = 20; //59.80sec
-int GD26 = 39; //59.80sec
-int BD26 = 33; //59.80sec
-int RD28 = 19; //64.40sec
-int GD28 = 37; //64.40sec
-int BD28 = 31; //64.40sec
-int RD30 = 19; //69.00sec
-int GD30 = 37; //69.00sec
-int BD30 = 29; //69.00sec
-int RDN = 20; //69.00sec
-int GDN = 20; //69.00sec
-int BDN = 20; //69.00sec
-int CDN = 20; //69.00sec
-int RDA = RDN;
-int GDA = GDN;
-int BDA = BDN;
-int CDA = CDN;
-
-bool isStopped = 0;
+int RDB = 2;
+int GDB = 5;
+int BDB = 8;
+int CDB = 16;
+int RDY = 1;
+int GDY = 2;
+int BDY = 1;
+int CDY = 4;
 bool lastState = 0;
-bool triggerActive = false;
 unsigned long startTime = 0;
+int time_run = 0;
 const unsigned long runDuration = 120000;
 unsigned long lastRead = 0;
-const unsigned long countdown = 0;
-unsigned long time_run = 0;
 unsigned long interval = 1000;
 bool TCS_stats = 0;
-// enum SYS_MODE = {STANDBY,START,STOP};
-// uint8_t SYSTEM_STATS = STANDBY;
-
-
-
-//Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_614MS, TCS34725_GAIN_1X);
+typedef enum {
+  RUNNING,
+  STOPPED
+} ProgramState;
+ProgramState state = RUNNING;
 Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS34725_GAIN_4X);
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
 void setup(void) {
   Serial.begin(9600);
+  startTime = millis();
   if (tcs.begin()) {
-    TCS_stats=1;
+    TCS_stats = 1;
   } else {
-    TCS_stats=0;
+    TCS_stats = 0;
   }
   display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
   display.clearDisplay();
@@ -94,30 +63,35 @@ void setup(void) {
   display.drawLine(0, 24, 127, 24, SSD1306_WHITE);
   display.setCursor(23, 16);
   display.setTextSize(1);
-  display.println("SYSTEM STANDBY");
-  display.setCursor(62, 27);
-  display.setTextSize(2);
-  display.println(countdown);
-  display.setCursor(0, 45);
+  display.println("SYSTEM");
+  display.setCursor(70, 16);
+  display.println(state);
+  display.setCursor(0, 27);
   display.setTextSize(1);
   display.println("TCS:");
-  display.setCursor(22, 45);
+  display.setTextSize(1);
+  display.setCursor(22, 27);
+  display.setTextSize(1);
   display.print(TCS_stats);
-  display.setCursor(35, 45);
+  display.setCursor(0, 40);
   display.print("R:");
-  display.setCursor(45, 45);
+  display.setCursor(10, 40);
   display.print(RED);
-  display.setCursor(68, 45);
+  display.setCursor(30, 40);
   display.print("G:");
-  display.setCursor(78, 45);
+  display.setCursor(40, 40);
   display.print(GREEN);
-  display.setCursor(100, 45);
+  display.setCursor(65, 40);
   display.print("B:");
-  display.setCursor(110, 45);
+  display.setCursor(75, 40);
   display.print(BLUE);
-  display.setCursor(40, 56);
+  display.setCursor(98, 40);
+  display.print("C:");
+  display.setCursor(108, 40);
+  display.print(CLEAR);
+  display.setCursor(40, 55);
   display.print("TIME:");
-  display.setCursor(75, 56);
+  display.setCursor(75, 55);
   display.print(time_run);
   display.display();
   pinMode(SW, INPUT_PULLUP);
@@ -140,80 +114,20 @@ void setup(void) {
 }
 
 void loop(void) {
-
-  bool PASS = (RDA == RED) || (GDA == GREEN) || (BDA == BLUE);
-  bool STOP = (RED==RDA) && (GREEN==GDA) && (BLUE == BDA);
-  bool OVR = (RDA == RED+2) || (GDA == GREEN+2) || (BDA == BLUE+2);
-
-  // if (millis() - lastUpdate >= 500) {
-  //   lastUpdate = millis();
-    
-  // }
-  // bool currentState = digitalRead(SW);
-  // Serial.println(currentState);
-  // delay(500);
-  // Serial.println("sistem standby");
-  // if (currentState == HIGH && lastState == LOW && !triggerActive) {
-  //   triggerActive = true;
-  //   Serial.println("sistem start");
-  //   delay(50);
-  //   startTime = millis();
-  // delay(1000);
-  // PSR();
-  // MR();
-  // delay(12000);
-  // PSS();
-  // MS();
-  // delay(10000);
-  // }
-
-  // lastState = currentState;
-  // stopSystem();
-// <<<<<<< HEAD(millis() - startTime <= runDuration) {
-    // PSR();
-    // PSS();
-  // }
-  // delay(20000);
-  //   triggerActive = false;
-// =======
-//   if (millis() - lastRead >= interval) {
-//     lastRead = millis();
-//     readColor();
-//   }
-  //   triggerActive = false;
-  //delay(1000  );
-// >>>>>>> a84ef76ec554af3c3ce75407b9c27ca23c138a11
-
-//============================================================
-  // delay(1000);
-  // bool TOLERANCE = ((RDA-3 < RED < RDA+3) && (GDA-3 < GREEN < GDA+3) && (BDA-3 < BLUE < BDA+3));
   readColor();
-  update_rgb_val();
-  bool MIN = ((RED < RDA) && (GREEN < GDA) && (BLUE < BDA) && (CLEAR < CDA));
-  bool TOLERANCE = ((RED > RDA - 1) && (RED < RDA + 1) &&
-                  (GREEN > GDA - 1) && (GREEN < GDA + 1) &&
-                  (BLUE > BDA - 1) && (BLUE < BDA + 1) &&
-                  (CLEAR < CDA ));
-  // bool TOLERANCE = ((RED > RDA - 3) && (RED < RDA + 3) &&
-  //                 (GREEN > GDA - 3) && (GREEN < GDA + 3) &&
-  //                 (BLUE > BDA - 3) && (BLUE < BDA + 3) &&
-  //                 (CLEAR < CDA ));
-  if(!TOLERANCE && isStopped==LOW){
+  update_lcd();
+  bool BLE = (((RED < RDB) || (RED == RDB)) && ((GREEN < GDB) || (GREEN < GDB)) && ((BLUE < BDB) || (BLUE == BDB)) && ((CLEAR < CDB) || (CLEAR == CDB)));
+  bool YLW = (((RED < RDY) || (RED == RDY)) && ((GREEN < GDY) || (GREEN < GDY)) && ((BLUE < BDY) || (BLUE == BDY)) && ((CLEAR < CDY) || (CLEAR == CDY)));
+  if (state == RUNNING) {
     PSR();
     MR();
-    if(millis() - lastRead >= 1000){
-      lastRead = millis();
-      Serial.println("START SYSTEMS");
-      Serial.print("R: ");
-      Serial.print(RED);
-      Serial.print("G: ");
-      Serial.print(GREEN);
-      Serial.print("B: ");
-      Serial.print(BLUE);
-      Serial.println(" ");
+    time_run = (millis() - startTime) / 1000;
+    if (BLE || YLW) {
+      stopSystem();
+      state = STOPPED;
     }
-  }else if(TOLERANCE||MIN){
-    if(millis() - lastRead >= 1000){
+  } else {
+    if (millis() - lastRead >= 1000) {
       lastRead = millis();
       Serial.print("R: ");
       Serial.print(RED);
@@ -221,11 +135,10 @@ void loop(void) {
       Serial.print(GREEN);
       Serial.print("B: ");
       Serial.print(BLUE);
-      Serial.println(" ");
+      Serial.print("C: ");
+      Serial.println(CLEAR);
       Serial.println("SYSTEM IS STOPPED");
     }
-    stopSystem();
-    isStopped=HIGH;
   }
 }
 
@@ -238,45 +151,54 @@ void readColor() {
   GREEN = g;
   BLUE = b;
   CLEAR = c;
-  // Serial.print("Color Temp: "); Serial.print(colorTemp); Serial.print(" K - ");
-  // Serial.print("Lux: "); Serial.print(lux); Serial.print(" - ");
-  // Serial.print("R: "); Serial.print(r); Serial.print(" ");
-  // Serial.print("G: "); Serial.print(g); Serial.print(" ");
-  // Serial.print("B: "); Serial.print(b); Serial.print(" ");
-  // Serial.print("C: "); Serial.println(c);
 }
-
 void MR() {
-  digitalWrite(MDP, LOW);
-  digitalWrite(MDN, HIGH);
+  digitalWrite(MDP, HIGH);
+  digitalWrite(MDN, LOW);
   analogWrite(ENM, 255);
 }
-
 void MS() {
   digitalWrite(MDP, HIGH);
   digitalWrite(MDN, HIGH);
   analogWrite(ENM, 0);
 }
-
 void PSR() {
   digitalWrite(PSP, HIGH);
   digitalWrite(PSN, LOW);
-  analogWrite(ENP, 120);
+  analogWrite(ENP,  200);
 }
-void update_rgb_val(){
+void update_lcd() {
   display.setTextSize(1);
-  display.fillRect(45, 45, 20, 8, BLACK);
-  display.fillRect(78, 45, 20, 8, BLACK);
-  display.fillRect(110, 45, 20, 8, BLACK);
-  display.setCursor(45, 45); display.print(RED);
-  display.setCursor(78, 45); display.print(GREEN);
-  display.setCursor(110, 45); display.print(BLUE);
-  display.display();
-}
-void update_countdown(){
-  display.setTextSize(2);
-  display.fillRect(62, 27, 20, 8, BLACK);
-  display.setCursor(62, 27); display.print(countdown);
+  display.fillRect(70, 16, 40, 8, BLACK);
+  display.fillRect(22, 27, 22, 8, BLACK);
+  display.fillRect(10, 40, 20, 8, BLACK);
+  display.fillRect(40, 40, 25, 8, BLACK);
+  display.fillRect(75, 40, 22, 8, BLACK);
+  display.fillRect(108, 40, 25, 8, BLACK);
+  display.fillRect(0, 48, 25, 8, BLACK);
+  display.fillRect(75, 55, 25, 8, BLACK);
+  display.setCursor(10, 40);
+  display.print(RED);
+  display.setCursor(43, 40);
+  display.print(GREEN);
+  display.setCursor(75, 40);
+  display.print(BLUE);
+  display.setCursor(108, 40);
+  display.print(CLEAR);
+  display.setCursor(75, 55);
+  display.print(time_run);
+  display.setCursor(22, 27);
+  if (TCS_stats==0){
+    display.print("NOT DETECTED");
+  }else{
+    display.print("DETECTED");
+  }
+  display.setCursor(70, 16);
+  if (state == RUNNING) {
+    display.print("RUNNING");
+  } else {
+    display.print("STOPPED");
+  }
   display.display();
 }
 void PSS() {
@@ -284,7 +206,6 @@ void PSS() {
   digitalWrite(PSN, HIGH);
   analogWrite(ENP, 0);
 }
-
 void stopSystem() {
   MS();
   PSS();

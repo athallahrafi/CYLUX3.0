@@ -1,0 +1,905 @@
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] 0 C: 0
+[detik ke-0] Color Temp: 4637 K - Lux: 175 - R: 169 G: 213 B: 14Color Temp: 4637 K - Lux: 175 - R: 169 G: 213 B: 14Color Temp: 4637 K - Lux: 175 - R: 169 G: 213 B: 14Color Temp: 4637 K - Lux: 175 - R: 169 G: 213 B: 14Color Temp: 4637 K - Lux: 175 - R: 169 G: 213 B: 14Color Temp: 4637 K - Lux: 175 - R: 169 G: 213 B: 14Color Temp: 4637 K - Lux: 175 - R: 169 G: 213 B: 14Color Temp: 4637 K - Lux: 175 - R: 169 G: 213 B: 144 C: 540
+[detik ke-0] Color Temp: 12059 K - Lux: 8 - R: 5 G: 13 B: 14 C: 35
+[detik ke-0] Color Temp: 10916 K - Lux: 7 - R: 6 G: 13 B: 15 C: 36
+[detik ke-0] Color Temp: 12059 K - Lux: 8 - R: 5 G: 13 B: 14 C: 35
+[detik ke-1] Color Temp: 10916 K - Lux: 7 - R: 6 G: 13 B: 15 C: 36
+[detik ke-1] Color Temp: 10916 K - Lux: 7 - R: 6 G: 13 B: 15 C: 36
+[detik ke-1] Color Temp: 10916 K - Lux: 7 - R: 6 G: 13 B: 15 C: 36
+[detik ke-1] Color Temp: 12059 K - Lux: 8 - R: 5 G: 13 B: 14 C: 36
+[detik ke-2] Color Temp: 10916 K - Lux: 7 - R: 6 G: 13 B: 15 C: 36
+[detik ke-2] Color Temp: 12059 K - Lux: 8 - R: 5 G: 13 B: 14 C: 35
+[detik ke-2] Color Temp: 12059 K - Lux: 8 - R: 5 G: 13 B: 14 C: 35
+[detik ke-3] Color Temp: 12059 K - Lux: 8 - R: 5 G: 13 B: 14 C: 35
+[detik ke-3] Color Temp: 12059 K - Lux: 8 - R: 5 G: 13 B: 14 C: 35
+[detik ke-3] Color Temp: 12059 K - Lux: 8 - R: 5 G: 13 B: 14 C: 35
+[detik ke-3] Color Temp: 12059 K - Lux: 8 - R: 5 G: 13 B: 14 C: 35
+[detik ke-4] Color Temp: 12059 K - Lux: 8 - R: 5 G: 13 B: 14 C: 35
+[detik ke-4] Color Temp: 12059 K - Lux: 8 - R: 5 G: 13 B: 14 C: 36
+[detik ke-4] Color Temp: 12821 K - Lux: 7 - R: 5 G: 13 B: 15 C: 36
+[detik ke-4] Color Temp: 10916 K - Lux: 7 - R: 6 G: 13 B: 15 C: 36
+[detik ke-5] Color Temp: 10916 K - Lux: 7 - R: 6 G: 13 B: 15 C: 36
+[detik ke-5] Color Temp: 10916 K - Lux: 7 - R: 6 G: 13 B: 15 C: 36
+[detik ke-5] Color Temp: 10916 K - Lux: 7 - R: 6 G: 13 B: 15 C: 36
+[detik ke-6] Color Temp: 10916 K - Lux: 7 - R: 6 G: 13 B: 15 C: 37
+[detik ke-6] Color Temp: 10916 K - Lux: 7 - R: 6 G: 13 B: 15 C: 37
+[detik ke-6] Color Temp: 10916 K - Lux: 7 - R: 6 G: 13 B: 15 C: 37
+[detik ke-6] Color Temp: 10916 K - Lux: 9 - R: 6 G: 14 B: 15 C: 38
+[detik ke-7] Color Temp: 10916 K - Lux: 9 - R: 6 G: 14 B: 15 C: 38
+[detik ke-7] Color Temp: 11551 K - Lux: 8 - R: 6 G: 14 B: 16 C: 38
+[detik ke-7] Color Temp: 11551 K - Lux: 8 - R: 6 G: 14 B: 16 C: 39
+[detik ke-7] Color Temp: 11551 K - Lux: 8 - R: 6 G: 14 B: 16 C: 39
+[detik ke-8] Color Temp: 11551 K - Lux: 8 - R: 6 G: 14 B: 16 C: 39
+[detik ke-8] Color Temp: 11551 K - Lux: 8 - R: 6 G: 14 B: 16 C: 40
+[detik ke-8] Color Temp: 11551 K - Lux: 8 - R: 6 G: 14 B: 16 C: 40
+[detik ke-9] Color Temp: 11551 K - Lux: 8 - R: 6 G: 14 B: 16 C: 40
+[detik ke-9] Color Temp: 12186 K - Lux: 9 - R: 6 G: 15 B: 17 C: 41
+[detik ke-9] Color Temp: 12186 K - Lux: 9 - R: 6 G: 15 B: 17 C: 41
+[detik ke-9] Color Temp: 12186 K - Lux: 9 - R: 6 G: 15 B: 17 C: 41
+[detik ke-10] Color Temp: 10643 K - Lux: 8 - R: 7 G: 15 B: 17 C: 42
+[detik ke-10] Color Temp: 10643 K - Lux: 8 - R: 7 G: 15 B: 17 C: 42
+[detik ke-10] Color Temp: 10643 K - Lux: 8 - R: 7 G: 15 B: 17 C: 42
+[detik ke-10] Color Temp: 10643 K - Lux: 8 - R: 7 G: 15 B: 17 C: 43
+[detik ke-11] Color Temp: 10643 K - Lux: 8 - R: 7 G: 15 B: 17 C: 43
+[detik ke-11] Color Temp: 10643 K - Lux: 8 - R: 7 G: 15 B: 17 C: 43
+[detik ke-11] Color Temp: 11188 K - Lux: 9 - R: 7 G: 16 B: 18 C: 43
+[detik ke-12] Color Temp: 11188 K - Lux: 9 - R: 7 G: 16 B: 18 C: 43
+[detik ke-12] Color Temp: 11188 K - Lux: 9 - R: 7 G: 16 B: 18 C: 44
+[detik ke-12] Color Temp: 11188 K - Lux: 9 - R: 7 G: 16 B: 18 C: 44
+[detik ke-12] Color Temp: 11188 K - Lux: 9 - R: 7 G: 16 B: 18 C: 44
+[detik ke-13] Color Temp: 11188 K - Lux: 9 - R: 7 G: 16 B: 18 C: 44
+[detik ke-13] Color Temp: 11188 K - Lux: 9 - R: 7 G: 16 B: 18 C: 44
+[detik ke-13] Color Temp: 11188 K - Lux: 9 - R: 7 G: 16 B: 18 C: 45
+[detik ke-14] Color Temp: 11732 K - Lux: 10 - R: 7 G: 17 B: 19 C: 47
+[detik ke-14] Color Temp: 12276 K - Lux: 9 - R: 7 G: 17 B: 20 C: 48
+[detik ke-14] Color Temp: 11188 K - Lux: 9 - R: 7 G: 16 B: 18 C: 45
+[detik ke-14] Color Temp: 11188 K - Lux: 9 - R: 7 G: 16 B: 18 C: 45
+[detik ke-15] Color Temp: 11188 K - Lux: 9 - R: 7 G: 16 B: 18 C: 45
+[detik ke-15] Color Temp: 11188 K - Lux: 9 - R: 7 G: 16 B: 18 C: 45
+[detik ke-15] Color Temp: 11732 K - Lux: 9 - R: 7 G: 16 B: 19 C: 46
+[detik ke-15] Color Temp: 11732 K - Lux: 9 - R: 7 G: 16 B: 19 C: 46
+[detik ke-16] Color Temp: 11732 K - Lux: 9 - R: 7 G: 16 B: 19 C: 46
+[detik ke-16] Color Temp: 11732 K - Lux: 10 - R: 7 G: 17 B: 19 C: 46
+[detik ke-16] Color Temp: 11732 K - Lux: 10 - R: 7 G: 17 B: 19 C: 46
+[detik ke-17] Color Temp: 11732 K - Lux: 10 - R: 7 G: 17 B: 19 C: 46
+[detik ke-17] Color Temp: 11732 K - Lux: 10 - R: 7 G: 17 B: 19 C: 46
+[detik ke-17] Color Temp: 11732 K - Lux: 10 - R: 7 G: 17 B: 19 C: 47
+[detik ke-17] Color Temp: 11732 K - Lux: 10 - R: 7 G: 17 B: 19 C: 47
+[detik ke-18] Color Temp: 11732 K - Lux: 10 - R: 7 G: 17 B: 19 C: 47
+[detik ke-18] Color Temp: 11732 K - Lux: 10 - R: 7 G: 17 B: 19 C: 47
+[detik ke-18] Color Temp: 11732 K - Lux: 10 - R: 7 G: 17 B: 19 C: 47
+[detik ke-18] Color Temp: 11732 K - Lux: 10 - R: 7 G: 17 B: 19 C: 47
+[detik ke-19] Color Temp: 11732 K - Lux: 10 - R: 7 G: 17 B: 19 C: 47
+[detik ke-19] Color Temp: 11732 K - Lux: 10 - R: 7 G: 17 B: 19 C: 48
+[detik ke-19] Color Temp: 11732 K - Lux: 10 - R: 7 G: 17 B: 19 C: 47
+[detik ke-20] Color Temp: 11732 K - Lux: 9 - R: 7 G: 16 B: 19 C: 45
+[detik ke-20] Color Temp: 12821 K - Lux: 8 - R: 6 G: 15 B: 18 C: 42
+[detik ke-20] Color Temp: 12186 K - Lux: 7 - R: 6 G: 14 B: 17 C: 40
+[detik ke-20] Color Temp: 13583 K - Lux: 7 - R: 5 G: 13 B: 16 C: 38
+[detik ke-21] Color Temp: 12821 K - Lux: 6 - R: 5 G: 12 B: 15 C: 34
+[detik ke-21] Color Temp: 14726 K - Lux: 5 - R: 4 G: 11 B: 14 C: 31
+[detik ke-21] Color Temp: 17901 K - Lux: 3 - R: 3 G: 9 B: 13 C: 28
+[detik ke-21] Color Temp: 16631 K - Lux: 4 - R: 3 G: 9 B: 12 C: 26
+[detik ke-22] Color Temp: 16631 K - Lux: 4 - R: 3 G: 9 B: 12 C: 25
+[detik ke-22] Color Temp: 16631 K - Lux: 4 - R: 3 G: 9 B: 12 C: 26
+[detik ke-22] Color Temp: 12821 K - Lux: 4 - R: 4 G: 9 B: 12 C: 27
+[detik ke-23] Color Temp: 12821 K - Lux: 5 - R: 4 G: 10 B: 12 C: 28
+[detik ke-23] Color Temp: 13773 K - Lux: 4 - R: 4 G: 10 B: 13 C: 30
+[detik ke-23] Color Temp: 13773 K - Lux: 6 - R: 4 G: 11 B: 13 C: 31
+[detik ke-23] Color Temp: 12059 K - Lux: 5 - R: 5 G: 11 B: 14 C: 32
+[detik ke-24] Color Temp: 12059 K - Lux: 7 - R: 5 G: 12 B: 14 C: 33
+[detik ke-24] Color Temp: 12821 K - Lux: 6 - R: 5 G: 12 B: 15 C: 35
+[detik ke-24] Color Temp: 12821 K - Lux: 7 - R: 5 G: 13 B: 15 C: 36
+[detik ke-24] Color Temp: 12821 K - Lux: 7 - R: 5 G: 13 B: 15 C: 36
+[detik ke-25] Color Temp: 13583 K - Lux: 7 - R: 5 G: 13 B: 16 C: 37
+[detik ke-25] Color Temp: 12821 K - Lux: 7 - R: 5 G: 13 B: 15 C: 36
+[detik ke-25] Color Temp: 14726 K - Lux: 5 - R: 4 G: 11 B: 14 C: 32
+[detik ke-26] Color Temp: 15361 K - Lux: 5 - R: 3 G: 9 B: 11 C: 25
+[detik ke-26] Color Temp: 14091 K - Lux: 2 - R: 3 G: 7 B: 10 C: 21
+[detik ke-26] Color Temp: 18536 K - Lux: 2 - R: 2 G: 6 B: 9 C: 18
+[detik ke-26] Color Temp: 16631 K - Lux: 1 - R: 2 G: 5 B: 8 C: 16
+[detik ke-27] Color Temp: 14726 K - Lux: 2 - R: 2 G: 5 B: 7 C: 15
+[detik ke-27] Color Temp: 14726 K - Lux: 2 - R: 2 G: 5 B: 7 C: 15
+[detik ke-27] Color Temp: 14726 K - Lux: 2 - R: 2 G: 5 B: 7 C: 14
+[detik ke-28] Color Temp: 24251 K - Lux: 1 - R: 1 G: 4 B: 6 C: 13
+[detik ke-28] Color Temp: 24251 K - Lux: 1 - R: 1 G: 4 B: 6 C: 12
+[detik ke-28] Color Temp: 20441 K - Lux: 2 - R: 1 G: 4 B: 5 C: 12
+[detik ke-28] Color Temp: 20441 K - Lux: 2 - R: 1 G: 4 B: 5 C: 11
+[detik ke-29] Color Temp: 20441 K - Lux: 2 - R: 1 G: 4 B: 5 C: 10
+[detik ke-29] Color Temp: 16631 K - Lux: 1 - R: 1 G: 3 B: 4 C: 10
+[detik ke-29] Color Temp: 16631 K - Lux: 1 - R: 1 G: 3 B: 4 C: 9
+[detik ke-29] Color Temp: 16631 K - Lux: 1 - R: 1 G: 3 B: 4 C: 9
+[detik ke-30] Color Temp: 16631 K - Lux: 1 - R: 1 G: 3 B: 4 C: 8
+[detik ke-30] Color Temp: 16631 K - Lux: 1 - R: 1 G: 3 B: 4 C: 8
+[detik ke-30] Color Temp: 12821 K - Lux: 2 - R: 1 G: 3 B: 3 C: 8
+[detik ke-31] Color Temp: 12821 K - Lux: 2 - R: 1 G: 3 B: 3 C: 7
+[detik ke-31] Color Temp: 12821 K - Lux: 2 - R: 1 G: 3 B: 3 C: 7
+[detik ke-31] Color Temp: 12821 K - Lux: 0 - R: 1 G: 2 B: 3 C: 7
+[detik ke-31] Color Temp: 12821 K - Lux: 0 - R: 1 G: 2 B: 3 C: 7
+[detik ke-32] Color Temp: 12821 K - Lux: 0 - R: 1 G: 2 B: 3 C: 6
+[detik ke-32] Color Temp: 12821 K - Lux: 0 - R: 1 G: 2 B: 3 C: 6
+[detik ke-32] Color Temp: 12821 K - Lux: 0 - R: 1 G: 2 B: 3 C: 6
+[detik ke-32] Color Temp: 9011 K - Lux: 1 - R: 1 G: 2 B: 2 C: 6
+[detik ke-33] Color Temp: 9011 K - Lux: 1 - R: 1 G: 2 B: 2 C: 6
+[detik ke-33] Color Temp: 9011 K - Lux: 1 - R: 1 G: 2 B: 2 C: 5
+[detik ke-33] Color Temp: 9011 K - Lux: 1 - R: 1 G: 2 B: 2 C: 5
+[detik ke-34] Color Temp: 9011 K - Lux: 1 - R: 1 G: 2 B: 2 C: 5
+[detik ke-34] Color Temp: 9011 K - Lux: 1 - R: 1 G: 2 B: 2 C: 5
+[detik ke-34] Color Temp: 9011 K - Lux: 1 - R: 1 G: 2 B: 2 C: 5
+[detik ke-34] Color Temp: 9011 K - Lux: 1 - R: 1 G: 2 B: 2 C: 5
+[detik ke-35] Color Temp: 9011 K - Lux: 1 - R: 1 G: 2 B: 2 C: 5
+[detik ke-35] Color Temp: 9011 K - Lux: 1 - R: 1 G: 2 B: 2 C: 5
+[detik ke-35] Color Temp: 9011 K - Lux: 1 - R: 1 G: 2 B: 2 C: 4
+[detik ke-35] Color Temp: 9011 K - Lux: 1 - R: 1 G: 2 B: 2 C: 4
+[detik ke-36] Color Temp: 9011 K - Lux: 1 - R: 1 G: 2 B: 2 C: 4
+[detik ke-36] Color Temp: 9011 K - Lux: 1 - R: 1 G: 2 B: 2 C: 4
+[detik ke-36] Color Temp: 9011 K - Lux: 1 - R: 1 G: 2 B: 2 C: 4
+[detik ke-37] Color Temp: 9011 K - Lux: 1 - R: 1 G: 2 B: 2 C: 4
+[detik ke-37] Color Temp: 9011 K - Lux: 1 - R: 1 G: 2 B: 2 C: 4
+[detik ke-37] Color Temp: 5201 K - Lux: 2 - R: 1 G: 2 B: 1 C: 4
+[detik ke-37] Color Temp: 5201 K - Lux: 2 - R: 1 G: 2 B: 1 C: 4
+[detik ke-38] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 4
+[detik ke-38] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 4
+[detik ke-38] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 4
+[detik ke-38] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 4
+[detik ke-39] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 4
+[detik ke-39] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 4
+[detik ke-39] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 4
+[detik ke-40] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 4
+[detik ke-40] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 4
+[detik ke-40] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 4
+[detik ke-40] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-41] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-41] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-41] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-41] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-42] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-42] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-42] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-43] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-43] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-43] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-43] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-44] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-44] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-44] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-44] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-45] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-45] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-45] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-46] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-46] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-46] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-46] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-47] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-47] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-47] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-47] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-48] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-48] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-48] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-49] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-49] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-49] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-49] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-50] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-50] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-50] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-50] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-51] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-51] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-51] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-52] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-52] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-52] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-52] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-53] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-53] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-53] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-53] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-54] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-54] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-54] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-55] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-55] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-55] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-55] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-56] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-56] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-56] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-56] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-57] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-57] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-57] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-58] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-58] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 3
+[detik ke-58] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-58] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-59] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-59] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-59] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-59] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-60] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-60] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-60] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-61] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-61] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-61] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-61] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-62] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-62] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-62] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-62] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-63] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-63] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-63] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-64] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-64] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-64] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-64] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-65] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-65] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-65] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-65] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-66] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-66] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-66] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-67] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-67] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-67] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-67] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-68] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-68] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-68] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-69] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-69] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-69] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-69] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-70] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-70] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-70] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-70] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-71] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-71] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-71] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-72] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-72] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-72] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-72] Color Temp: 5201 K - Lux: 0 - R: 1 G: 1 B: 1 C: 3
+[detik ke-73] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-73] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-73] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-73] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-74] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-74] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-74] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-75] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-75] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-75] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-75] Color Temp: 0 K - Lux: 0 - R: 0 G: 1 B: 1 C: 2
+[detik ke-76] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-76] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-76] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-76] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-77] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-77] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-77] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-78] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-78] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-78] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-78] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-79] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-79] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-79] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-79] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-80] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-80] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-80] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-81] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-81] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-81] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-81] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-82] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-82] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-82] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-82] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-83] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-83] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-83] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-84] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-84] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-84] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-84] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-85] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-85] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-85] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-85] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-86] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-86] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-86] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-87] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-87] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-87] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-87] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-88] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-88] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-88] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-88] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-89] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-89] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-89] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-90] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-90] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-90] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-90] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-91] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-91] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-91] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-91] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-92] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-92] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-92] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-93] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-93] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-93] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-93] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-94] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-94] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-94] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-94] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-95] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-95] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-95] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-96] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-96] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-96] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-96] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-97] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-97] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-97] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-97] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-98] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-98] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-98] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-99] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-99] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-99] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-99] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-100] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-100] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-100] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-100] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-101] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-101] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-101] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-102] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-102] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-102] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-102] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-103] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-103] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-103] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-103] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-104] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-104] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-104] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-105] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-105] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-105] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-105] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-106] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-106] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-106] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-106] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-107] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-107] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-107] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-108] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-108] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-108] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-108] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-109] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-109] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-109] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-109] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-110] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-110] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-110] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-111] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-111] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-111] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-111] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-112] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-112] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-112] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-113] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-113] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-113] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-113] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-114] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-114] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-114] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-114] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-115] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-115] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-115] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-116] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-116] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-116] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-116] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-117] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-117] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-117] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-117] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-118] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-118] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-118] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-119] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-119] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-119] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-119] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-120] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-120] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
+[detik ke-120] Color Temp: 0 K - Lux: 1 - R: 0 G: 1 B: 0 C: 2
