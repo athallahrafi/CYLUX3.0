@@ -144,6 +144,9 @@ void loop(void) {
 
 void readColor() {
   uint16_t r, g, b, c, colorTemp, lux;
+  
+  delay(55);
+
   tcs.getRawData(&r, &g, &b, &c);
   colorTemp = tcs.calculateColorTemperature_dn40(r, g, b, c);
   lux = tcs.calculateLux(r, g, b);
